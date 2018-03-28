@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\MusketeerOrder\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Wavefield1.2065049089.00" t="ExcludeRecursive" />
+    <e p="F:\UnityProjects\Wavefield1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Imported" t="Include">
+          <e p="Rewired" t="Include">
+            <e p="Documentation" t="Include">
+              <e p="licences.txt" t="Include" />
+              <e p="ReadMe.txt" t="Include" />
+              <e p="ReleaseNotes.txt" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="ControlRemapping1" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ControlRemappingDemo1.cs" t="Include" />
+                </e>
+              </e>
+              <e p="CustomControllersTilt" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="CustomControllersTiltDemo.cs" t="Include" />
+                </e>
+              </e>
+              <e p="CustomControllersTouch" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="CustomControllerDemo.cs" t="Include" />
+                  <e p="CustomControllerDemo_Player.cs" t="Include" />
+                  <e p="TouchButtonExample.cs" t="Include" />
+                  <e p="TouchControllerExample.cs" t="Include" />
+                  <e p="TouchJoystickExample.cs" t="Include" />
+                </e>
+              </e>
+              <e p="EightPlayers" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="EightPlayersExample_Player.cs" t="Include" />
+                </e>
+              </e>
+              <e p="FallbackJoystickIdentification" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="FallbackJoystickIdentificationDemo.cs" t="Include" />
+                </e>
+              </e>
+              <e p="PressAnyButtonToJoin" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="PressAnyButtonToJoinExample_Assigner.cs" t="Include" />
+                  <e p="PressAnyButtonToJoinExample_GamePlayer.cs" t="Include" />
+                </e>
+              </e>
+              <e p="PressStartToJoin" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="PressStartToJoinExample_Assigner.cs" t="Include" />
+                  <e p="PressStartToJoinExample_GamePlayer.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Shared" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Bullet.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SimpleControlRemapping" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="SimpleControlRemapping.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Extras" t="Include">
+              <e p="ControlMapper" t="Include">
+                <e p="Examples" t="Include">
+                  <e p="ControlMapperDemo" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="ControlMapperDemoMessage.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="ButtonInfo.cs" t="Include" />
+                  <e p="CalibrationWindow.cs" t="Include" />
+                  <e p="CanvasScalerExt.cs" t="Include" />
+                  <e p="CanvasScalerFitter.cs" t="Include" />
+                  <e p="ControlMapper.cs" t="Include" />
+                  <e p="ControlMapper_Classes.cs" t="Include" />
+                  <e p="ControlMapper_Enums.cs" t="Include" />
+                  <e p="ControlMapper_InputGrid.cs" t="Include" />
+                  <e p="ControlMapper_WindowManager.cs" t="Include" />
+                  <e p="CustomButton.cs" t="Include" />
+                  <e p="CustomSlider.cs" t="Include" />
+                  <e p="CustomToggle.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="ControlMapperInspector.cs" t="Include" />
+                    <e p="CustomButtonInspector.cs" t="Include" />
+                    <e p="CustomSliderInspector.cs" t="Include" />
+                    <e p="CustomToggleInspector.cs" t="Include" />
+                  </e>
+                  <e p="ICustomSelectable.cs" t="Include" />
+                  <e p="InputBehaviorWindow.cs" t="Include" />
+                  <e p="InputFieldInfo.cs" t="Include" />
+                  <e p="InputRow.cs" t="Include" />
+                  <e p="LanguageData.cs" t="Include" />
+                  <e p="ScrollbarVisibilityHelper.cs" t="Include" />
+                  <e p="ScrollRectSelectableChild.cs" t="Include" />
+                  <e p="ThemedElement.cs" t="Include" />
+                  <e p="ThemeSettings.cs" t="Include" />
+                  <e p="ToggleInfo.cs" t="Include" />
+                  <e p="UIControl.cs" t="Include" />
+                  <e p="UIControlSet.cs" t="Include" />
+                  <e p="UIElementInfo.cs" t="Include" />
+                  <e p="UIGroup.cs" t="Include" />
+                  <e p="UIImageHelper.cs" t="Include" />
+                  <e p="UISelectionUtility.cs" t="Include" />
+                  <e p="UISliderControl.cs" t="Include" />
+                  <e p="UITools.cs" t="Include" />
+                  <e p="Window.cs" t="Include" />
+                </e>
+              </e>
+              <e p="TouchControls" t="Include">
+                <e p="Examples" t="Include">
+                  <e p="TouchControls1" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="TouchControls1_ManipulateCube.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="MenuCommands.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="ColorShift.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Integration" t="Include">
+              <e p="UnityUI" t="Include">
+                <e p="RewiredStandaloneInputModule.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Internal" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DataStorage" t="Include">
+                  <e p="UserDataStore_PlayerPrefs.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="CustomInspectors" t="Include">
+                    <e p="ControllerDataFilesInspector.cs" t="Include" />
+                    <e p="CustomInspector_External.cs" t="Include" />
+                    <e p="HardwareJoystickMapInspector.cs" t="Include" />
+                    <e p="HardwareJoystickTemplateMapInspector.cs" t="Include" />
+                    <e p="InputManagerInspector.cs" t="Include" />
+                    <e p="UserDataStore_PlayerPrefsInspector.cs" t="Include" />
+                  </e>
+                  <e p="UnityEditorBridge.cs" t="Include" />
+                </e>
+                <e p="InputManager.cs" t="Include" />
+                <e p="Misc" t="Include">
+                  <e p="ExternalTools.cs" t="Include" />
+                </e>
+                <e p="Platforms" t="Include">
+                  <e p="Ouya" t="Include">
+                    <e p="OuyaInputSource.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="MageRoyaleRewiredConsts.cs" t="Include" />
+        <e p="Main" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Pool" t="Include">
+              <e p="Pool.cs" t="Include" />
+              <e p="PoolMember.cs" t="Include" />
+            </e>
+            <e p="RewiredControlled" t="Include">
+              <e p="PlayerRewiredBump.cs" t="Include" />
+              <e p="PlayerRewiredControl.cs" t="Include" />
+              <e p="PlayerRewiredFire.cs" t="Include" />
+              <e p="PlayerRewiredLaunch.cs" t="Include" />
+              <e p="RewiredBase.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Wavefield1.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
