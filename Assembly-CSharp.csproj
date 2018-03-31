@@ -222,6 +222,15 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/MusketeerOrder/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="RelationsInspector">
+      <HintPath>F:/UnityProjects/Wavefield1/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1FD03743-0291-5F09-072F-B4B844E152AD}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

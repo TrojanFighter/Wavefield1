@@ -52,7 +52,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\AmbientSoundInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\AudioEventInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\AudioScriptOrderManager.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\AudioTransformTrackerInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\AudioUndoHelper.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\ButtonClickerInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\DTGUIHelper.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\DynamicGroupVariationInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\DynamicSoundGroupCreatorInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\DynamicSoundGroupInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\FootstepsSoundsInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioClipManager.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioGroupInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioHierIcon.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioInspectorResources.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioManager.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterAudioSoundUpgrader.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\MasterCustomEventPropertyDrawer.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\PersistChanges\MAComponentPatch.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\PersistChanges\MAGOSetting.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\PersistChanges\MAObjectContext.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\PlaylistControllerInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupOrganizerInspector.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupPropertyDrawer.cs" />
+    <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupVariationInspector.cs" />
     <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\AutoBackend\ReflectionUtil.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\AutoBackend\RIAutoBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\HierarchyExample\SceneHierarchyBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\HierarchyExample\TagBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\MasterAudioEventBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\SocialNetworkExample\Person.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\SocialNetworkExample\SocialNetworkBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\SocialNetworkExample\StudyNetworkBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\TypeGraphExample\TypeInheritanceBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\TypeGraphExample\TypeUtility.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\BackendUtils\BackendUtil.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\BackendUtils\DrawUtil.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\BackendUtils\MinimalBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\BackendUtils\ScriptableObjectBackend.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\BackendUtils\ScriptableObjectBackendToolbar.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\RelationsInspectorLink.cs" />
+    <Compile Include="Assets\Plugins\Editor\RelationsInspector\RelationsInspectorMenuItem.cs" />
+    <None Include="Assets\Plugins\Editor\RelationsInspector\changelog.txt" />
+    <None Include="Assets\Plugins\Editor\RelationsInspector\README.txt" />
     <Reference Include="Vuforia.UnityExtensions.Editor">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
@@ -158,6 +203,15 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/MusketeerOrder/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="RelationsInspector">
+      <HintPath>F:/UnityProjects/Wavefield1/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1FD03743-0291-5F09-072F-B4B844E152AD}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
