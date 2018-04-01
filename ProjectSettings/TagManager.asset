@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerCollider
+  - EnemyCollider
+  - ResonanceField
+  - PlayerBullet
+  - PlayerBoundaries
   - 
   - 
   - 

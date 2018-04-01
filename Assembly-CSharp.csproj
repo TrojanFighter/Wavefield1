@@ -109,6 +109,7 @@
     <Compile Include="Assets\Main\Scripts\Player\ResonanceField.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\Pool.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\PoolMember.cs" />
+    <Compile Include="Assets\Main\Scripts\Projectile\PlayerBullet.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredBump.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredControl.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredFire.cs" />

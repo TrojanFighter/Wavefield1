@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Linq.Expressions;
 using Rewired;
 using UnityEngine;
 using WaveField.ResourceManagement;
@@ -44,13 +45,14 @@ namespace WaveField.RewiredBase
 			{
 				var bullet = BulletPool.nextThing; 
 				bullet.transform.position = WeaponTip.position;
-				bullet.transform.rotation = _transform.rotation;
+				//bullet.transform.rotation = _transform.rotation;
+				bullet.transform.eulerAngles = new  Vector3(0,0, _transform.eulerAngles.z);
 
-				var angle = _transform.rotation.eulerAngles.y;//- 90;
+				/*var angle = _transform.rotation.eulerAngles.y;//- 90;
 				var radians = angle * Mathf.Deg2Rad;
 				var vForce = new Vector2((float)Mathf.Sin(radians), (float)Mathf.Cos(radians)) * FireShakeForce;
 
-				//ProCamera2DShake.Instance.ApplyShakesTimed(new Vector2[]{ vForce }, new Vector3[]{Vector3.zero}, new float[]{ FireShakeDuration });
+				//ProCamera2DShake.Instance.ApplyShakesTimed(new Vector2[]{ vForce }, new Vector3[]{Vector3.zero}, new float[]{ FireShakeDuration });*/
 
 				LongBurstCount--;
 				yield return new WaitForSeconds(FireRate);

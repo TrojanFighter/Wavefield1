@@ -179,6 +179,9 @@
               <e p="Pool.cs" t="Include" />
               <e p="PoolMember.cs" t="Include" />
             </e>
+            <e p="Projectile" t="Include">
+              <e p="PlayerBullet.cs" t="Include" />
+            </e>
             <e p="RewiredControlled" t="Include">
               <e p="PlayerRewiredBump.cs" t="Include" />
               <e p="PlayerRewiredControl.cs" t="Include" />

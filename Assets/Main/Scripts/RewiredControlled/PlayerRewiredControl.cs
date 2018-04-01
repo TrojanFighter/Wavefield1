@@ -1,4 +1,5 @@
 ﻿
+using System;
 using UnityEngine;
 using Rewired;
 
@@ -16,9 +17,14 @@ namespace WaveField.RewiredBase
         public float RunSpeed = 12;
         public float Acceleration = 30;
 
+        public Transform m_otherPlayer;
+        public Rigidbody2D m_rigidbody2D;
+
+        public float clampX=8.4f, clampY=4.6f;
+        
         float _currentSpeedH;
         float _currentSpeedV;
-        Vector3 _amountToMove;
+        Vector2 _amountToMove;
         int _totalJumps;
         
 
@@ -33,6 +39,7 @@ namespace WaveField.RewiredBase
         public override bool Initialize()
         {
             //_characterController = GetComponent<CharacterController>();
+            m_rigidbody2D = GetComponent<Rigidbody2D>();
             //_rigidBody = GetComponent<Rigidbody>();
 
             /*
@@ -61,6 +68,7 @@ namespace WaveField.RewiredBase
             //ProcessInput();
             //TurnWithMouse();
             //CheckGround();
+            TurnTowardsBack();
         }
         
         protected override void GetInput() {
@@ -86,19 +94,24 @@ namespace WaveField.RewiredBase
             if(moveVector.x != 0.0f || moveVector.y != 0.0f) {
                 
                 var targetSpeedH = moveVector.x * RunSpeed;
-                _currentSpeedH = IncrementTowards(_currentSpeedH, targetSpeedH, Acceleration);
+                //_currentSpeedH = IncrementTowards(_currentSpeedH, targetSpeedH, Acceleration);
 
                 var targetSpeedV = moveVector.y * RunSpeed;
-                _currentSpeedV = IncrementTowards(_currentSpeedV, targetSpeedV, Acceleration);
+                //_currentSpeedV = IncrementTowards(_currentSpeedV, targetSpeedV, Acceleration);
 
-                _amountToMove.x = _currentSpeedH;
-                _amountToMove.y = _currentSpeedV;
-                _amountToMove.z = 0;
+                _amountToMove.x = targetSpeedH;
+                _amountToMove.y = targetSpeedV;
+                //_amountToMove.z = 0;
                 
                 //_rigidBody.MovePosition(_rigidBody.position+ _amountToMove * Time.deltaTime);
 
-                transform.position+=(_amountToMove * Time.deltaTime);
+                //transform.position+=(_amountToMove * Time.deltaTime);
                 //_characterController.Move(moveVector * moveSpeed * Time.deltaTime);
+                Vector2 targetPosition = m_rigidbody2D.position + _amountToMove * Time.deltaTime;
+                targetPosition=new Vector2(Mathf.Clamp(targetPosition.x,-clampX,clampX), Mathf.Clamp(targetPosition.y,-clampY,clampY));
+                
+                
+                m_rigidbody2D.MovePosition(targetPosition);
             }
 
             /*
@@ -107,6 +120,13 @@ namespace WaveField.RewiredBase
                 GameObject bullet = (GameObject)Instantiate(bulletPrefab, transform.position + transform.right, transform.rotation);
                 bullet.GetComponent<Rigidbody>().AddForce(transform.right * bulletSpeed, ForceMode.VelocityChange);
             }*/
+        }
+
+        void TurnTowardsBack()
+        {
+            var offset = new Vector2(m_otherPlayer.position.x - transform.position.x, m_otherPlayer.position.y - transform.position.y);
+            var angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
+            transform.rotation =Quaternion.Euler(0, 0, angle+90f); 
         }
 
         private void TurnWithMouse()
@@ -124,8 +144,10 @@ namespace WaveField.RewiredBase
             }
             else
             {
+                var offset = new Vector2(m_otherPlayer.position.x - transform.position.x, m_otherPlayer.position.y - transform.position.y);
                 var angle = Mathf.Atan2(turnVector.y, turnVector.x) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 90-angle, 0), _TurnRateEase);
+                transform.rotation =Quaternion.Euler(0, 0,90 + angle); 
+                // Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 90-angle, 0), _TurnRateEase);
             }
         }
 /*
