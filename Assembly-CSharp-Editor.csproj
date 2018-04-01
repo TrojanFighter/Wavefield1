@@ -148,6 +148,9 @@
     <Reference Include="Rewired_Windows_Lib">
       <HintPath>F:/UnityProjects/Wavefield1/Assets/Imported/Rewired/Internal/Libraries/Runtime/Rewired_Windows_Lib.dll</HintPath>
     </Reference>
+    <Reference Include="RelationsInspector">
+      <HintPath>F:/UnityProjects/Wavefield1/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/MusketeerOrder/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -168,9 +171,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/MusketeerOrder/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="RelationsInspector">
-      <HintPath>F:/UnityProjects/Wavefield1/Assets/Plugins/Editor/RelationsInspector/RelationsInspector.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
