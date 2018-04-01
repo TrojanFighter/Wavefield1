@@ -106,6 +106,7 @@
     <Compile Include="Assets\Imported\Rewired\Internal\Scripts\Misc\ExternalTools.cs" />
     <Compile Include="Assets\Imported\Rewired\Internal\Scripts\Platforms\Ouya\OuyaInputSource.cs" />
     <Compile Include="Assets\MageRoyaleRewiredConsts.cs" />
+    <Compile Include="Assets\Main\Scripts\Player\ResonanceField.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\Pool.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\PoolMember.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredBump.cs" />

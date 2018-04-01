@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e774f579-3878-4c9d-b4c5-3f18721644d9" name="Default" comment="" />
+    <list default="true" id="e774f579-3878-4c9d-b4c5-3f18721644d9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Material/ResonanceWave.mat" afterPath="$PROJECT_DIR$/Assets/Main/Material/ResonanceWave.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scene/a1.unity" afterPath="$PROJECT_DIR$/Assets/Main/Scene/a1.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/44/44542f0f9fd1ce74082d6b980574e9c2" afterPath="$PROJECT_DIR$/Library/metadata/44/44542f0f9fd1ce74082d6b980574e9c2" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,11 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="PlayerRewiredFire.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="38">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
@@ -24,9 +36,37 @@
       <file leaf-file-name="PlayerRewiredControl.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+              <folding>
+                <marker date="1522607175248" expanded="false" signature="7:34" ph="..." />
+                <marker date="1522607175248" expanded="true" signature="67:5883" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="121:5881" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="530:623" ph="/* protected CharacterController _characterController; ... */" />
+                <marker date="1522607175248" expanded="true" signature="664:710" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="753:1544" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="776:891" ph="/* _characterController = GetComponent&lt;CharacterController&gt;(); ... */" />
+                <marker date="1522607175248" expanded="true" signature="905:1483" ph="/* var cinematics = FindObjectsOfType&lt;ProCamera2DCinematics&gt;(); ... */" />
+                <marker date="1522607175248" expanded="true" signature="1587:1741" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="1628:1731" ph="/* GetInput(); ... */" />
+                <marker date="1522607175248" expanded="true" signature="1794:2549" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="1808:2029" ph="/* Get the input from the Rewired Player. All controllers that the Player owns will contribute, so it doesn't mat ... */" />
+                <marker date="1522607175248" expanded="true" signature="2064:2391" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="2260:2377" ph="/* turnVector.x = player.GetAxis(&quot;Horizontal Turn&quot;); ... */" />
+                <marker date="1522607175248" expanded="true" signature="2405:2539" ph="/* Debug.Log(player.GetAxis(&quot;Horizontal Move&quot;)+&quot; &quot;+player.GetAxis(&quot;Vertical Move&quot;)); ... */" />
+                <marker date="1522607175248" expanded="true" signature="2598:3799" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="2706:3457" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="3471:3789" ph="/* Process fire ... */" />
+                <marker date="1522607175248" expanded="true" signature="3837:4696" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="3879:4432" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="3928:4418" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="4449:4686" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="4697:5291" ph="/* void Update() ... */" />
+                <marker date="1522607175248" expanded="true" signature="5409:5729" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="5448:5505" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="5522:5719" ph="{...}" />
+                <marker date="1522607175248" expanded="true" signature="5779:5875" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoolMember.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PoolMember.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/PoolMember.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -52,6 +92,20 @@
                 <marker date="1522264911784" expanded="true" signature="170:347" ph="{...}" />
                 <marker date="1522264911784" expanded="true" signature="216:345" ph="{...}" />
                 <marker date="1522264911784" expanded="true" signature="274:339" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResonanceField.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Player/ResonanceField.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="137" lean-forward="false" selection-start-line="12" selection-start-column="124" selection-end-line="12" selection-end-column="137" />
+              <folding>
+                <marker date="1522607506753" expanded="true" signature="6:78" ph="..." />
+                <marker date="1522607506753" expanded="true" signature="123:506" ph="{...}" />
+                <marker date="1522607506753" expanded="true" signature="252:504" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,6 +149,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredLaunch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Player/ResonanceField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/PoolMember.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/Pool.cs" root0="FORCE_HIGHLIGHTING" />
@@ -106,11 +161,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Pool/Pool.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/RewiredBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredLaunch.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredBump.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Pool/PoolMember.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Player/ResonanceField.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +203,7 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Wavefield1 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Wavefield1 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -191,11 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522264603573</updated>
       <workItem from="1522264619583" duration="887000" />
+      <workItem from="1522605224320" duration="2407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="887000" />
+    <option name="totallyTimeSpent" value="3294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,25 +268,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -256,6 +313,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <marker date="1522607175248" expanded="false" signature="7:34" ph="..." />
+            <marker date="1522607175248" expanded="true" signature="67:5883" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="121:5881" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="530:623" ph="/* protected CharacterController _characterController; ... */" />
+            <marker date="1522607175248" expanded="true" signature="664:710" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="753:1544" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="776:891" ph="/* _characterController = GetComponent&lt;CharacterController&gt;(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="905:1483" ph="/* var cinematics = FindObjectsOfType&lt;ProCamera2DCinematics&gt;(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="1587:1741" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="1628:1731" ph="/* GetInput(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="1794:2549" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="1808:2029" ph="/* Get the input from the Rewired Player. All controllers that the Player owns will contribute, so it doesn't mat ... */" />
+            <marker date="1522607175248" expanded="true" signature="2064:2391" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="2260:2377" ph="/* turnVector.x = player.GetAxis(&quot;Horizontal Turn&quot;); ... */" />
+            <marker date="1522607175248" expanded="true" signature="2405:2539" ph="/* Debug.Log(player.GetAxis(&quot;Horizontal Move&quot;)+&quot; &quot;+player.GetAxis(&quot;Vertical Move&quot;)); ... */" />
+            <marker date="1522607175248" expanded="true" signature="2598:3799" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="2706:3457" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3471:3789" ph="/* Process fire ... */" />
+            <marker date="1522607175248" expanded="true" signature="3837:4696" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3879:4432" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3928:4418" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="4449:4686" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="4697:5291" ph="/* void Update() ... */" />
+            <marker date="1522607175248" expanded="true" signature="5409:5729" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5448:5505" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5522:5719" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5779:5875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredBump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/RewiredBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredLaunch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/Pool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/PoolMember.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1522264911784" expanded="true" signature="0:84" ph="/* Credit to: ... */" />
+            <marker date="1522264911784" expanded="false" signature="92:130" ph="..." />
+            <marker date="1522264911784" expanded="true" signature="170:347" ph="{...}" />
+            <marker date="1522264911784" expanded="true" signature="216:345" ph="{...}" />
+            <marker date="1522264911784" expanded="true" signature="274:339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -302,6 +441,54 @@
             <marker date="1522264911784" expanded="true" signature="170:347" ph="{...}" />
             <marker date="1522264911784" expanded="true" signature="216:345" ph="{...}" />
             <marker date="1522264911784" expanded="true" signature="274:339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+          <folding>
+            <marker date="1522607175248" expanded="false" signature="7:34" ph="..." />
+            <marker date="1522607175248" expanded="true" signature="67:5883" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="121:5881" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="530:623" ph="/* protected CharacterController _characterController; ... */" />
+            <marker date="1522607175248" expanded="true" signature="664:710" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="753:1544" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="776:891" ph="/* _characterController = GetComponent&lt;CharacterController&gt;(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="905:1483" ph="/* var cinematics = FindObjectsOfType&lt;ProCamera2DCinematics&gt;(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="1587:1741" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="1628:1731" ph="/* GetInput(); ... */" />
+            <marker date="1522607175248" expanded="true" signature="1794:2549" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="1808:2029" ph="/* Get the input from the Rewired Player. All controllers that the Player owns will contribute, so it doesn't mat ... */" />
+            <marker date="1522607175248" expanded="true" signature="2064:2391" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="2260:2377" ph="/* turnVector.x = player.GetAxis(&quot;Horizontal Turn&quot;); ... */" />
+            <marker date="1522607175248" expanded="true" signature="2405:2539" ph="/* Debug.Log(player.GetAxis(&quot;Horizontal Move&quot;)+&quot; &quot;+player.GetAxis(&quot;Vertical Move&quot;)); ... */" />
+            <marker date="1522607175248" expanded="true" signature="2598:3799" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="2706:3457" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3471:3789" ph="/* Process fire ... */" />
+            <marker date="1522607175248" expanded="true" signature="3837:4696" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3879:4432" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="3928:4418" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="4449:4686" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="4697:5291" ph="/* void Update() ... */" />
+            <marker date="1522607175248" expanded="true" signature="5409:5729" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5448:5505" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5522:5719" ph="{...}" />
+            <marker date="1522607175248" expanded="true" signature="5779:5875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Player/ResonanceField.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="137" lean-forward="false" selection-start-line="12" selection-start-column="124" selection-end-line="12" selection-end-column="137" />
+          <folding>
+            <marker date="1522607506753" expanded="true" signature="6:78" ph="..." />
+            <marker date="1522607506753" expanded="true" signature="123:506" ph="{...}" />
+            <marker date="1522607506753" expanded="true" signature="252:504" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -22,7 +22,7 @@ namespace WaveField.RewiredBase
         int _totalJumps;
         
 
-        protected CharacterController _characterController;
+        //protected CharacterController _characterController;
         //private Rigidbody _rigidBody;
 
         protected override void Start()
@@ -32,7 +32,7 @@ namespace WaveField.RewiredBase
 
         public override bool Initialize()
         {
-            _characterController = GetComponent<CharacterController>();
+            //_characterController = GetComponent<CharacterController>();
             //_rigidBody = GetComponent<Rigidbody>();
 
             /*
@@ -59,8 +59,8 @@ namespace WaveField.RewiredBase
             base.Update();
             //GetInput();
             //ProcessInput();
-            TurnWithMouse();
-            CheckGround();
+            //TurnWithMouse();
+            //CheckGround();
         }
         
         protected override void GetInput() {
@@ -72,8 +72,8 @@ namespace WaveField.RewiredBase
                 moveVector.x = player.GetAxis("Horizontal Move"); // get input by name or action id
                 moveVector.y = player.GetAxis("Vertical Move");
 
-                turnVector.x = player.GetAxis("Horizontal Turn");
-                turnVector.y = player.GetAxis("Vertical Turn");
+                //turnVector.x = player.GetAxis("Horizontal Turn");
+                //turnVector.y = player.GetAxis("Vertical Turn");
             }
 
             //Debug.Log(player.GetAxis("Horizontal Move")+" "+player.GetAxis("Vertical Move"));
@@ -92,12 +92,12 @@ namespace WaveField.RewiredBase
                 _currentSpeedV = IncrementTowards(_currentSpeedV, targetSpeedV, Acceleration);
 
                 _amountToMove.x = _currentSpeedH;
-                _amountToMove.z = _currentSpeedV;
-                _amountToMove.y = 0;
+                _amountToMove.y = _currentSpeedV;
+                _amountToMove.z = 0;
                 
                 //_rigidBody.MovePosition(_rigidBody.position+ _amountToMove * Time.deltaTime);
 
-                _characterController.Move(_amountToMove * Time.deltaTime);
+                transform.position+=(_amountToMove * Time.deltaTime);
                 //_characterController.Move(moveVector * moveSpeed * Time.deltaTime);
             }
 
@@ -107,14 +107,6 @@ namespace WaveField.RewiredBase
                 GameObject bullet = (GameObject)Instantiate(bulletPrefab, transform.position + transform.right, transform.rotation);
                 bullet.GetComponent<Rigidbody>().AddForce(transform.right * bulletSpeed, ForceMode.VelocityChange);
             }*/
-        }
-
-        private void CheckGround()
-        {
-            if (blockOnGround&&transform.position.y > 0)
-            {
-                transform.position=new Vector3(transform.position.x,0,transform.position.z);
-            }
         }
 
         private void TurnWithMouse()
@@ -171,7 +163,7 @@ namespace WaveField.RewiredBase
 
         public bool PushedBack(Vector3 distance)
         {
-            _characterController.Move(distance);
+            //_characterController.Move(distance);
             return true;
         }
     }
