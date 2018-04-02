@@ -4,6 +4,7 @@ using System.Runtime.Serialization;
 using BehaviorTree;
 
 using UnityEngine;
+using Vuforia;
 using WaveField;
 
 namespace WaveField.AI
@@ -18,7 +19,7 @@ namespace WaveField.AI
         [SerializeField] private GameObject[] _players;
         private GameObject targetedPlayer;
         [SerializeField] private float _movespeed, _ramSpeed;
-        [SerializeField] private float _visibilityRange;
+        [SerializeField] private float _visibilityRange,_reachRange,_fuzeRange;
         [SerializeField] private float _damagePerHit;
 
         private bool isTargetingPlayer = true,isAttacking=false;
@@ -56,12 +57,23 @@ namespace WaveField.AI
                                 // We use a sequence here since this is effectively a checklist...
                                 // Sequences fail as soon as a child fails so they're a good way to check
                                 // a bunch of conditions before doing something
-                                new Not<Enemy>(new IsTargetPointInRange()),
-                                new RamAttack()
+                                new Not<Enemy>(new IsTargetPointReached()),
+                                
+                                new Selector<Enemy>(
+                                    new Sequence<Enemy>(
+                                        new IsFuzeRangeReached(),
+                                        new SelfExplosion()
+                                        ),
+                                    new Sequence<Enemy>(
+                                        new Not<Enemy>( new IsFuzeRangeReached()),
+                                        new RamAttack()
+                                    )
+                                )
+
                             ),
 
                             new Sequence<Enemy>(
-                                new IsTargetPointInRange(),
+                                new IsTargetPointReached(),
                                 new GenerateTargetPoint(),
                                 new BeginFlee()
                             )
@@ -81,11 +93,11 @@ namespace WaveField.AI
                                         new ReTargetClosestPlayer()
                                     ),
                                     new Sequence<Enemy>(
-                                        new Not<Enemy>(new IsPlayerInRange()),
+                                        new Not<Enemy>(new IsPlayerInVisionRange()),
                                         new MoveTowardsTargetedPlayerAction()
                                     ),
                                     new Sequence<Enemy>(
-                                        new IsPlayerInRange(),
+                                        new IsPlayerInVisionRange(),
                                         new Idle(), // Pulse
                                         new Idle(), // Pulse
                                         new Idle(), // Pulse
@@ -111,12 +123,12 @@ namespace WaveField.AI
                                 new Not<Enemy>(new IsTargetingPlayer()),
                                 new Selector<Enemy>(
                                     new Sequence<Enemy>( 
-                                        new Not<Enemy>(new IsTargetPointInRange()),
+                                        new Not<Enemy>(new IsTargetPointReached()),
                                         new MoveTowardsTargetedPointAction()
                                     ),
 
                                     new Sequence<Enemy>( 
-                                        new IsTargetPointInRange(),
+                                        new IsTargetPointReached(),
                                         new BeginPursue()
                                     )
                                 )
@@ -242,29 +254,39 @@ namespace WaveField.AI
             public override bool Update(Enemy enemy)
             {
                 
-                Debug.Log("is targetingPlayer: "+enemy.isTargetingPlayer);
+                //Debug.Log("is targetingPlayer: "+enemy.isTargetingPlayer);
                 return enemy.isTargetingPlayer;
             }
         }
 
-        private class IsPlayerInRange : Node<Enemy>
+        private class IsPlayerInVisionRange : Node<Enemy>
         {
             public override bool Update(Enemy enemy)
             {
                 var playerPos = enemy.targetedPlayer.transform.position;
                 var enemyPos = enemy.transform.position;
-                Debug.Log("Player In Range: "+ (Vector3.Distance(playerPos, enemyPos) < enemy._visibilityRange));
+                //Debug.Log("Player In Range: "+ (Vector3.Distance(playerPos, enemyPos) < enemy._visibilityRange));
                 return Vector3.Distance(playerPos, enemyPos) < enemy._visibilityRange;
             }
         }
 
-        private class IsTargetPointInRange : Node<Enemy>
+        private class IsTargetPointReached : Node<Enemy>
         {
             public override bool Update(Enemy enemy)
             {
                 var targetPos = enemy.targetPoint;
                 var enemyPos = enemy.transform.position;
-                return Vector3.Distance(targetPos, enemyPos) < enemy._visibilityRange;
+                return Vector3.Distance(targetPos, enemyPos) < enemy._reachRange;
+            }
+        }
+        
+        private class IsFuzeRangeReached : Node<Enemy>
+        {
+            public override bool Update(Enemy enemy)
+            {
+                var targetPos = enemy.targetedPlayer.transform.position;
+                var enemyPos = enemy.transform.position;
+                return Vector3.Distance(targetPos, enemyPos) < enemy._fuzeRange;
             }
         }
         
@@ -351,6 +373,9 @@ namespace WaveField.AI
             {
                 //enemy.SetColor(Color.yellow);
                 //enemy.MoveAwayFromPlayer();
+                
+                Debug.Log("BeginFlee");
+                
                 enemy.isAttacking = false;
                 enemy.isTargetingPlayer = false;
                 return true;
@@ -363,6 +388,8 @@ namespace WaveField.AI
             {
                 //enemy.SetColor(Color.yellow);
                 //enemy.MoveAwayFromPlayer();
+                Debug.Log("BeginPursue");
+                
                 enemy.isAttacking = false;
                 enemy.isTargetingPlayer = true;
                 return true;
@@ -387,9 +414,20 @@ namespace WaveField.AI
             public override bool Update(Enemy enemy)
             {
                 //enemy.SetColor(Color.red);
-                
                 Debug.Log("Begin Attack");
+                
                 enemy.isAttacking = true;
+                return true;
+            }
+        }
+        
+        private class SelfExplosion: Node<Enemy>
+        {
+            public override bool Update(Enemy enemy)
+            {
+                Debug.Log("Self Exploded");
+
+               
                 return true;
             }
         }

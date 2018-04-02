@@ -103,9 +103,11 @@ MonoBehaviour:
   _players:
   - {fileID: 0}
   - {fileID: 0}
-  _movespeed: 1
-  _ramSpeed: 5
+  _movespeed: 3
+  _ramSpeed: 10
   _visibilityRange: 2
+  _reachRange: 0.1
+  _fuzeRange: 0.5
   _damagePerHit: 3
   _health: 10
 --- !u!120 &120712735807333898
