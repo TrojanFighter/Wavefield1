@@ -46,40 +46,44 @@ namespace WaveField.AI
         private void Start()
         {
             // We define the tree and use a selector at the root to pick the high level behavior (i.e. fight, flight or idle)
-            _tree = new Tree<Enemy>(new Selector<Enemy>(
+            _tree = new Tree<Enemy>(
+                new Selector<Enemy>(
                     new Sequence<Enemy>(
-                        new IsTargetingPlayer(),
+                        //Attacking behavior
+                        new IsAttacking(),
                         new Selector<Enemy>(
                             new Sequence<Enemy>(
-                                new Not<Enemy>(new HasTarget()),
-                                new ReTargetClosestPlayer()
+                                // We use a sequence here since this is effectively a checklist...
+                                // Sequences fail as soon as a child fails so they're a good way to check
+                                // a bunch of conditions before doing something
+                                new Not<Enemy>(new IsTargetPointInRange()),
+                                new RamAttack()
                             ),
-                            /*
-                            new Sequence<Enemy>( // We use a sequence here since this is effectively a checklist...
-                                // Sequences fail as soon as a child fails so they're a good way to check
-                                // a bunch of conditions before doing something
-                                //new ReTargetClosestPlayer(),
-                                //new IsPlayerInRange(),
-                                new IsAttacking(),
-                                new RamAttack(),
-                                new IsPlayerInRange(),
-                                
-                                //new IsInDanger(), // If the enemy has taken a lot of damage AND...
-                                //new IsPlayerInRange() // the player is in range...
-                                //new Flee() // then run away
-                            ),*/
-                            new Sequence<Enemy>( // We use a sequence here since this is effectively a checklist...
-                                // Sequences fail as soon as a child fails so they're a good way to check
-                                // a bunch of conditions before doing something
-                                //new ReTargetClosestPlayer(),
-                                new Not<Enemy>(new IsPlayerInRange()),
-                                //new Not<Enemy>(new IsAttacking()),
-                                new MoveTowardsTargetedPlayerAction(),
-                                //new IsInDanger(), // If the enemy has taken a lot of damage AND...
-                                //new IsPlayerInRange() // the player is in range...
-                                //new Flee() // then run away
-                                
+
+                            new Sequence<Enemy>(
+                                new IsTargetPointInRange(),
+                                new GenerateTargetPoint(),
+                                new BeginFlee()
+                            )
+                        )
+                    ),
+                    new Sequence<Enemy>(
+                        //Not attacking
+                        new Not<Enemy>(new IsAttacking()),
+                        new Selector<Enemy>(
+                            new Sequence<Enemy>(
+                                //Chasing Behavior
+                                new IsTargetingPlayer(),
                                 new Selector<Enemy>(
+                                    new Sequence<Enemy>(
+                                        //if not targeted one, get one target
+                                        new Not<Enemy>(new HasTarget()),
+                                        new ReTargetClosestPlayer()
+                                    ),
+                                    new Sequence<Enemy>(
+                                        new Not<Enemy>(new IsPlayerInRange()),
+                                        new MoveTowardsTargetedPlayerAction()
+                                    ),
                                     new Sequence<Enemy>(
                                         new IsPlayerInRange(),
                                         new Idle(), // Pulse
@@ -95,48 +99,30 @@ namespace WaveField.AI
                                             ),
                                             new Sequence<Enemy>(
                                                 new Not<Enemy>(new IsHurt()),
+                                                new LockPlayerAttackPosition(),
                                                 new BeginAttack()
                                             )
                                         )
-                                    ),
-                                    new Sequence<Enemy>(
-                                        new Not<Enemy>(new IsPlayerInRange()),
-                                        new Idle()
-                                        )
+                                    )
                                 )
-                            )
-                        )
-                    ),
-                    new Sequence<Enemy>(
-                        new Not<Enemy>(new IsTargetingPlayer()),
-                        new Selector<Enemy>(
-                            /*new Sequence<Enemy>(
-                                new Not<Enemy>(new HasTarget()),
-                                new ReTargetClosestPlayer()
-                            ),*/
-                            new Sequence<Enemy>( // We use a sequence here since this is effectively a checklist...
-                                // Sequences fail as soon as a child fails so they're a good way to check
-                                // a bunch of conditions before doing something
-                                //new ReTargetClosestPlayer(),
-                                new Not<Enemy>(new IsTargetPointInRange()),
-                                new BeginFlee()
-                                //new IsInDanger(), // If the enemy has taken a lot of damage AND...
-                                //new IsPlayerInRange() // the player is in range...
-                                //new Flee() // then run away
                             ),
+                            new Sequence<Enemy>(
+                                //Flee to random point behavior
+                                new Not<Enemy>(new IsTargetingPlayer()),
+                                new Selector<Enemy>(
+                                    new Sequence<Enemy>( 
+                                        new Not<Enemy>(new IsTargetPointInRange()),
+                                        new MoveTowardsTargetedPointAction()
+                                    ),
 
-                            new Sequence<Enemy>( // We use a sequence here since this is effectively a checklist...
-                                // Sequences fail as soon as a child fails so they're a good way to check
-                                // a bunch of conditions before doing something
-                                //new ReTargetClosestPlayer(),
-                                new IsTargetPointInRange(),
-                                new BeginPursue()
-                                //new IsInDanger(), // If the enemy has taken a lot of damage AND...
-                                //new IsPlayerInRange() // the player is in range...
-                                //new Flee() // then run away
+                                    new Sequence<Enemy>( 
+                                        new IsTargetPointInRange(),
+                                        new BeginPursue()
+                                    )
+                                )
+
                             )
                         )
-
                     ),
                     // (lowest priority)
                     // Idle behavior
@@ -160,14 +146,14 @@ namespace WaveField.AI
             var body = GetComponent<Rigidbody2D>();
             body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);
         }
-
+/*
         private void RamTowardsPlayer()
         {
             Vector2 playerDirection = (targetedPlayer.transform.position - transform.position).normalized;
             var body = GetComponent<Rigidbody2D>();
             Debug.Log("Attacking "+targetedPlayer.gameObject.name);
             body.MovePosition(body.position+ playerDirection * _ramSpeed*Time.deltaTime);
-        }
+        }*/
 
         private void MoveAwayFromPlayer()
         {
@@ -181,6 +167,14 @@ namespace WaveField.AI
             Vector2 playerDirection = (targetPoint - transform.position).normalized;
             var body = GetComponent<Rigidbody2D>();
             body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);
+            
+        }
+        
+        private void RamTowardsTargetPoint()
+        {
+            Vector2 playerDirection = (targetPoint - transform.position).normalized;
+            var body = GetComponent<Rigidbody2D>();
+            body.MovePosition(body.position+ playerDirection * _ramSpeed*Time.deltaTime);
             
         }
 
@@ -259,6 +253,7 @@ namespace WaveField.AI
             {
                 var playerPos = enemy.targetedPlayer.transform.position;
                 var enemyPos = enemy.transform.position;
+                Debug.Log("Player In Range: "+ (Vector3.Distance(playerPos, enemyPos) < enemy._visibilityRange));
                 return Vector3.Distance(playerPos, enemyPos) < enemy._visibilityRange;
             }
         }
@@ -284,6 +279,7 @@ namespace WaveField.AI
         ///////////////////
         /// Actions
         ///////////////////
+        
 
         private class ReTargetClosestPlayer : Node<Enemy>
         {
@@ -344,7 +340,7 @@ namespace WaveField.AI
             public override bool Update(Enemy enemy)
             {
                 //enemy.SetColor(Color.red);
-                enemy.RamTowardsPlayer();
+                enemy.RamTowardsTargetPoint();
                 return true;
             }
         }
@@ -372,12 +368,26 @@ namespace WaveField.AI
                 return true;
             }
         }
+        
+        private class LockPlayerAttackPosition : Node<Enemy>
+        {
+            public override bool Update(Enemy enemy)
+            {
+                //enemy.SetColor(Color.red);
+                
+                //Debug.Log("Begin Attack");
+
+                enemy.targetPoint = enemy.targetedPlayer.transform.position;
+                return true;
+            }
+        }
 
         private class BeginAttack : Node<Enemy>
         {
             public override bool Update(Enemy enemy)
             {
                 //enemy.SetColor(Color.red);
+                
                 Debug.Log("Begin Attack");
                 enemy.isAttacking = true;
                 return true;
@@ -389,6 +399,7 @@ namespace WaveField.AI
             public override bool Update(Enemy enemy)
             {
                 //enemy.SetColor(Color.blue);
+                Debug.Log("Idle for 1 frame");
                 return true;
             }
         }
