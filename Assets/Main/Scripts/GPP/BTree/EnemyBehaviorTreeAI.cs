@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using WaveField.Entity;
 
 
 namespace WaveField.BehaviorTree
@@ -7,7 +8,7 @@ namespace WaveField.BehaviorTree
     public class EnemyBehaviorTreeAI : MonoBehaviour
     {
         private Tree<EnemyBehaviorTreeAI> _tree;
-        [SerializeField] private GameObject[] _players;
+        [SerializeField] public GameObject[] _players;
         private GameObject targetedPlayer;
         [SerializeField] private float _movespeed, _ramSpeed;
         [SerializeField] private float _visibilityRange,_reachRange,_fuzeRange;
@@ -16,23 +17,9 @@ namespace WaveField.BehaviorTree
         private bool isTargetingPlayer = true,isAttacking=false;
         private Vector3 targetPoint;
 
-        private const float MaxHealth = 10;
-        [SerializeField] private float _health = MaxHealth;
-
-
-        public void Hit(int hitPoint)
-        {
-            _health -= hitPoint;
-            if (_health <= 0)
-            {
-                SelfDestory();
-            }
-        }
-
-        void SelfDestory()
+        void OnDestroy()
         {
             _tree = null;
-            Destroy(gameObject);
         }
 
         private void Start()
@@ -146,8 +133,9 @@ namespace WaveField.BehaviorTree
         private void MoveTowardsPlayer()
         {
             Vector2 playerDirection = (targetedPlayer.transform.position - transform.position).normalized;
-            var body = GetComponent<Rigidbody2D>();
-            body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);
+            transform.Translate(playerDirection * _movespeed*Time.deltaTime); 
+            /*var body = GetComponent<Rigidbody2D>();
+            body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);*/
         }
 /*
         private void RamTowardsPlayer()
@@ -161,24 +149,27 @@ namespace WaveField.BehaviorTree
         private void MoveAwayFromPlayer()
         {
             Vector2 fleeDirection = (transform.position - targetedPlayer.transform.position).normalized;
-            var body = GetComponent<Rigidbody2D>();
-            body.MovePosition(body.position+ fleeDirection * _movespeed*Time.deltaTime);
+            transform.Translate(fleeDirection * _movespeed*Time.deltaTime); 
+            /*var body = GetComponent<Rigidbody2D>();
+            body.MovePosition(body.position+ fleeDirection * _movespeed*Time.deltaTime);*/
         }
 
         private void MoveTowardsTargetPoint()
         {
             Vector2 playerDirection = (targetPoint - transform.position).normalized;
-            var body = GetComponent<Rigidbody2D>();
-            body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);
+            transform.Translate(playerDirection * _movespeed*Time.deltaTime);
+            /*var body = GetComponent<Rigidbody2D>();
+            body.MovePosition(body.position+ playerDirection * _movespeed*Time.deltaTime);*/
             
         }
         
         private void RamTowardsTargetPoint()
         {
             Vector2 playerDirection = (targetPoint - transform.position).normalized;
-            var body = GetComponent<Rigidbody2D>();
-            body.MovePosition(body.position+ playerDirection * _ramSpeed*Time.deltaTime);
-            
+            transform.Translate(playerDirection * _ramSpeed * Time.deltaTime);
+            /*var body = GetComponent<Rigidbody2D>();
+            body.MovePosition(body.position+ playerDirection * _ramSpeed*Time.deltaTime);*/
+
         }
 
         private void SetColor(Color c)
@@ -236,7 +227,7 @@ namespace WaveField.BehaviorTree
         {
             public override bool Update(EnemyBehaviorTreeAI enemyBehaviorTreeAi)
             {
-                return enemyBehaviorTreeAi._health < MaxHealth;
+                return enemyBehaviorTreeAi.GetComponent<HPEntity>().bIsInjured();
             }
         }
 
@@ -365,7 +356,7 @@ namespace WaveField.BehaviorTree
                 //enemyBehaviorTreeAi.SetColor(Color.yellow);
                 //enemyBehaviorTreeAi.MoveAwayFromPlayer();
                 
-                Debug.Log("BeginFlee");
+                //Debug.Log("BeginFlee");
                 
                 enemyBehaviorTreeAi.isAttacking = false;
                 enemyBehaviorTreeAi.isTargetingPlayer = false;
@@ -379,7 +370,7 @@ namespace WaveField.BehaviorTree
             {
                 //enemyBehaviorTreeAi.SetColor(Color.yellow);
                 //enemyBehaviorTreeAi.MoveAwayFromPlayer();
-                Debug.Log("BeginPursue");
+                //Debug.Log("BeginPursue");
                 
                 enemyBehaviorTreeAi.isAttacking = false;
                 enemyBehaviorTreeAi.isTargetingPlayer = true;
@@ -405,7 +396,7 @@ namespace WaveField.BehaviorTree
             public override bool Update(EnemyBehaviorTreeAI enemyBehaviorTreeAi)
             {
                 //enemyBehaviorTreeAi.SetColor(Color.red);
-                Debug.Log("Begin Attack");
+                //Debug.Log("Begin Attack");
                 
                 enemyBehaviorTreeAi.isAttacking = true;
                 return true;
@@ -416,8 +407,10 @@ namespace WaveField.BehaviorTree
         {
             public override bool Update(EnemyBehaviorTreeAI enemyBehaviorTreeAi)
             {
-                Debug.Log("Self Exploded");
-
+                //Debug.Log("Self Exploded");
+                enemyBehaviorTreeAi.targetedPlayer.GetComponent<HPEntity>().Hit(enemyBehaviorTreeAi._damagePerHit);
+                
+                Destroy(enemyBehaviorTreeAi.gameObject);
                
                 return true;
             }
@@ -428,7 +421,7 @@ namespace WaveField.BehaviorTree
             public override bool Update(EnemyBehaviorTreeAI enemyBehaviorTreeAi)
             {
                 //enemyBehaviorTreeAi.SetColor(Color.blue);
-                Debug.Log("Idle for 1 frame");
+                //Debug.Log("Idle for 1 frame");
                 return true;
             }
         }

@@ -21,10 +21,11 @@ GameObject:
   - component: {fileID: 4179751527704108}
   - component: {fileID: 212603016101654722}
   - component: {fileID: 114225589547338948}
-  - component: {fileID: 50699068133714462}
   - component: {fileID: 61788532642778426}
   - component: {fileID: 120712735807333898}
-  m_Layer: 0
+  - component: {fileID: 50853396457627734}
+  - component: {fileID: 114389218534999328}
+  m_Layer: 9
   m_Name: PurpleEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +45,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50699068133714462
+--- !u!50 &50853396457627734
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -58,7 +59,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -100,16 +101,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf1bbd43e15c495c8efd1a69ed7e423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _players:
-  - {fileID: 0}
-  - {fileID: 0}
-  _movespeed: 3
-  _ramSpeed: 10
+  _players: []
+  _movespeed: 2
+  _ramSpeed: 4
   _visibilityRange: 2
   _reachRange: 0.1
-  _fuzeRange: 0.5
-  _damagePerHit: 3
-  _health: 10
+  _fuzeRange: 1
+  _damagePerHit: 10
+--- !u!114 &114389218534999328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203222761289592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1535b9c59ee9dec4097f52065a37a9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityId: -1
+  _health: 100
+  resonanceDamage: 300
+  m_resonanceType: 4
 --- !u!120 &120712735807333898
 LineRenderer:
   m_ObjectHideFlags: 1

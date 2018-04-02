@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using WaveField.Entity;
 
 namespace WaveField.Projectile
 {
@@ -43,39 +44,40 @@ namespace WaveField.Projectile
 			_transform.position += _transform.TransformDirection(Vector3.up) * BulletSpeed * Time.deltaTime;
 			//_transform.Translate( transform.TransformDirection(Vector3.up) * BulletSpeed * Time.deltaTime);
 
-			if(Physics.Raycast(_lastPos, _transform.position - _lastPos, out _raycastHit, (_lastPos - _transform.position).magnitude + SkinWidth, CollisionMask))
+			/*if(Physics.Raycast(_lastPos, _transform.position - _lastPos, out _raycastHit, (_lastPos - _transform.position).magnitude + SkinWidth, CollisionMask))
 			{
 				_collisionPoint = _raycastHit.point;
 
 				//_transform.up = _raycastHit.normal;
 
 				Collide();
-			}
+			}*/
 
 			if (Time.time - _startTime > BulletDuration)
 				Disable();
 		}
 
-		void Collide()
+		private void OnTriggerEnter2D(Collider2D other)
 		{
-			_exploding = true;
-			//_transform.position = _collisionPoint;
-			//if(_raycastHit.collider.GetComponent<ArenaBoss>())
-			{
-				//_raycastHit.collider.GetComponent<ArenaBoss>().Hit(BulletDamage);
-			}
+			Collide(other);
+		}
 
-			if (_raycastHit.collider.GetComponent<Rigidbody2D>())
+		void Collide(Collider2D other)
+		{
+			//_exploding = true;
+			//_transform.position = _collisionPoint;
+
+			if (other.GetComponent<HPEntity>())
 			{
+				_exploding = true;
 				//_raycastHit.collider.SendMessageUpwards("Hit", BulletDamage, SendMessageOptions.DontRequireReceiver);
 				//_raycastHit.collider.attachedRigidbody.AddExplosionForce(PushForce, transform.position, ForceRadius, 0F);
 				//_raycastHit.collider.attachedRigidbody.AddForce(PushForce*_transform.forward,ForceMode.Impulse);
-				Debug.Log("_raycastHit.collider:" + _raycastHit.collider.gameObject.name);
+				//Debug.Log("_raycastHit.collider:" + _raycastHit.collider.gameObject.name);
+				other.GetComponent<HPEntity>().Hit(BulletDamage);
+				Disable();
 			}
 			
-
-
-			Disable();
 		}
 
 		void Disable()

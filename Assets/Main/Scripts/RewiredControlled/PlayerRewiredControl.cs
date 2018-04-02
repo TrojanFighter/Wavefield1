@@ -19,8 +19,6 @@ namespace WaveField.RewiredBase
 
         public Transform m_otherPlayer;
         public Rigidbody2D m_rigidbody2D;
-
-        public float clampX=8.4f, clampY=4.6f;
         
         float _currentSpeedH;
         float _currentSpeedV;
@@ -108,10 +106,10 @@ namespace WaveField.RewiredBase
                 //transform.position+=(_amountToMove * Time.deltaTime);
                 //_characterController.Move(moveVector * moveSpeed * Time.deltaTime);
                 Vector2 targetPosition = m_rigidbody2D.position + _amountToMove * Time.deltaTime;
-                targetPosition=new Vector2(Mathf.Clamp(targetPosition.x,-clampX,clampX), Mathf.Clamp(targetPosition.y,-clampY,clampY));
-                
-                
-                m_rigidbody2D.MovePosition(targetPosition);
+                targetPosition=new Vector2(Mathf.Clamp(targetPosition.x,-GlobalDefine.clampX,GlobalDefine.clampX), Mathf.Clamp(targetPosition.y,-GlobalDefine.clampY,GlobalDefine.clampY));
+                transform.position = targetPosition;
+
+                //m_rigidbody2D.MovePosition(targetPosition);
             }
 
             /*
@@ -181,12 +179,6 @@ namespace WaveField.RewiredBase
                 n += a * Time.deltaTime * dir;
                 return (dir == Mathf.Sign(target - n)) ? n : target;
             }
-        }
-
-        public bool PushedBack(Vector3 distance)
-        {
-            //_characterController.Move(distance);
-            return true;
         }
     }
 }

@@ -180,7 +180,10 @@
               <e p="GlobalDefine.cs" t="Include" />
             </e>
             <e p="Entity" t="Include">
+              <e p="EnemyEntity.cs" t="Include" />
               <e p="EntityBase.cs" t="Include" />
+              <e p="HPEntity.cs" t="Include" />
+              <e p="PlayerEntity.cs" t="Include" />
             </e>
             <e p="GPP" t="Include">
               <e p="BTree" t="Include">
@@ -206,8 +209,8 @@
                 </e>
               </e>
             </e>
-            <e p="Player" t="Include">
-              <e p="ResonanceField.cs" t="Include" />
+            <e p="Manager" t="Include">
+              <e p="EnemyGenerator.cs" t="Include" />
             </e>
             <e p="Pool" t="Include">
               <e p="Pool.cs" t="Include" />
@@ -215,6 +218,9 @@
             </e>
             <e p="Projectile" t="Include">
               <e p="PlayerBullet.cs" t="Include" />
+            </e>
+            <e p="Resonance" t="Include">
+              <e p="ResonanceField.cs" t="Include" />
             </e>
             <e p="RewiredControlled" t="Include">
               <e p="PlayerRewiredBump.cs" t="Include" />

@@ -95,7 +95,7 @@ Transform:
   m_GameObject: {fileID: 1289952032360566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 1, z: 1}
   m_Children:
   - {fileID: 4434455221274210}
   - {fileID: 4398723281318782}
@@ -142,13 +142,13 @@ MonoBehaviour:
   m_Player2: {fileID: 0}
   lengthOffset: 1
   defaultLength: 1
-  defaultWidthScale: 0.5
+  defaultWidthScale: 0.8
   m_resonanceType: 0
   resonanceScaleYRange:
-  - 2
-  - 4
-  - 6
-  - 8
+  - 3
+  - 5
+  - 7
+  - 9
   resonanceFieldSprite:
   - {fileID: 212890480518141120}
   - {fileID: 212693866595387380}

@@ -109,7 +109,10 @@
     <Compile Include="Assets\Main\Scripts\Base\Singleton.cs" />
     <Compile Include="Assets\Main\Scripts\Define\GameEvent.cs" />
     <Compile Include="Assets\Main\Scripts\Define\GlobalDefine.cs" />
+    <Compile Include="Assets\Main\Scripts\Entity\EnemyEntity.cs" />
     <Compile Include="Assets\Main\Scripts\Entity\EntityBase.cs" />
+    <Compile Include="Assets\Main\Scripts\Entity\HPEntity.cs" />
+    <Compile Include="Assets\Main\Scripts\Entity\PlayerEntity.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\BTree\EnemyBehaviorTreeAI.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\BTree\Util\BehaviorTree.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Critter.cs" />
@@ -124,10 +127,11 @@
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Util\FSM.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Util\Services.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Util\Util.cs" />
-    <Compile Include="Assets\Main\Scripts\Player\ResonanceField.cs" />
+    <Compile Include="Assets\Main\Scripts\Manager\EnemyGenerator.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\Pool.cs" />
     <Compile Include="Assets\Main\Scripts\Pool\PoolMember.cs" />
     <Compile Include="Assets\Main\Scripts\Projectile\PlayerBullet.cs" />
+    <Compile Include="Assets\Main\Scripts\Resonance\ResonanceField.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredBump.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredControl.cs" />
     <Compile Include="Assets\Main\Scripts\RewiredControlled\PlayerRewiredFire.cs" />
