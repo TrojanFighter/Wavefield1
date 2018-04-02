@@ -169,9 +169,34 @@
             </e>
           </e>
         </e>
-        <e p="MageRoyaleRewiredConsts.cs" t="Include" />
         <e p="Main" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Define" t="Include">
+              <e p="GlobalDefine.cs" t="Include" />
+            </e>
+            <e p="GPP" t="Include">
+              <e p="BTree" t="Include">
+                <e p="BehaviorTree.cs" t="Include" />
+                <e p="BPlayer.cs" t="Include" />
+                <e p="Enemy.cs" t="Include" />
+              </e>
+              <e p="fsm" t="Include">
+                <e p="Critter.cs" t="Include" />
+                <e p="Food.cs" t="Include" />
+                <e p="FoodManager.cs" t="Include" />
+                <e p="Main.cs" t="Include" />
+                <e p="Util" t="Include">
+                  <e p="Config.cs" t="Include" />
+                  <e p="Coroutines.cs" t="Include" />
+                  <e p="Easing.cs" t="Include" />
+                  <e p="EventManager.cs" t="Include" />
+                  <e p="Events.cs" t="Include" />
+                  <e p="FSM.cs" t="Include" />
+                  <e p="Services.cs" t="Include" />
+                  <e p="Util.cs" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Player" t="Include">
               <e p="ResonanceField.cs" t="Include" />
             </e>
