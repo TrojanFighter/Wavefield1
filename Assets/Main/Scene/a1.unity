@@ -223,6 +223,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1289952032360566, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de, type: 2}
+      propertyPath: m_Name
+      value: ResonanceField
+      objectReference: {fileID: 0}
     - target: {fileID: 114548017280389104, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de,
         type: 2}
       propertyPath: m_Player1
@@ -233,10 +237,6 @@ Prefab:
       propertyPath: m_Player2
       value: 
       objectReference: {fileID: 2092146868}
-    - target: {fileID: 1289952032360566, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de, type: 2}
-      propertyPath: m_Name
-      value: ResonanceField
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de, type: 2}
   m_IsPrefabParent: 0
@@ -352,6 +352,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &662879452 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1289952032360566, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de,
+    type: 2}
+  m_PrefabInternal: {fileID: 340976237}
 --- !u!4 &662879453 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4452806721624762, guid: 26ef5457e9bc8b9458aaa8c4d9a6a1de,
@@ -411,6 +416,11 @@ Prefab:
       propertyPath: m_UseFullKinematicContacts
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212427899751558604, guid: 02b32b81f7ca0d04695549b74e5f8b8e,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02b32b81f7ca0d04695549b74e5f8b8e, type: 2}
   m_IsPrefabParent: 0
@@ -428,6 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154237790}
   - component: {fileID: 1154237789}
+  - component: {fileID: 1154237791}
   m_Layer: 0
   m_Name: PurpleEnemy
   m_TagString: Untagged
@@ -468,7 +479,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e307158c0777edd408df70400a23f472, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -487,11 +498,27 @@ Transform:
   m_GameObject: {fileID: 1154237788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1154237791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1154237788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf1bbd43e15c495c8efd1a69ed7e423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 662879452}
+  _speed: 0.1
+  _visibilityRange: 4
+  _damagePerHit: 3
+  _health: 10
 --- !u!1001 &1885226055
 Prefab:
   m_ObjectHideFlags: 0
@@ -640,6 +667,11 @@ Prefab:
         type: 2}
       propertyPath: m_UseFullKinematicContacts
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212719295616893654, guid: 539dcd28c4fd8b64599eee9a0fe19e07,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 539dcd28c4fd8b64599eee9a0fe19e07, type: 2}

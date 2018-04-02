@@ -8,8 +8,9 @@ namespace WaveField
 
 
 
-    public class GlobalDefine
+    public static class GlobalDefine
     {
+        public static float clampX=8.4f, clampY=4.6f;
     }
 
     public enum ResonanceType {
