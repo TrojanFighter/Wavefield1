@@ -1,12 +1,17 @@
 ﻿
 using UnityEngine;
+using WaveField.Event;
 
-public class FoodDestroyedEvent : GameEvent
+namespace GPP.FSM
 {
-    public GameObject Food { get; private set; }
 
-    public FoodDestroyedEvent(GameObject food)
+    public class FoodDestroyedEvent : GameEvent
     {
-        Food = food;
+        public GameObject Food { get; private set; }
+
+        public FoodDestroyedEvent(GameObject food)
+        {
+            Food = food;
+        }
     }
 }

@@ -171,14 +171,23 @@
         </e>
         <e p="Main" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Base" t="Include">
+              <e p="MonoBehaviourEX.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
             <e p="Define" t="Include">
+              <e p="GameEvent.cs" t="Include" />
               <e p="GlobalDefine.cs" t="Include" />
+            </e>
+            <e p="Entity" t="Include">
+              <e p="EntityBase.cs" t="Include" />
             </e>
             <e p="GPP" t="Include">
               <e p="BTree" t="Include">
-                <e p="BehaviorTree.cs" t="Include" />
-                <e p="BPlayer.cs" t="Include" />
-                <e p="Enemy.cs" t="Include" />
+                <e p="EnemyBehaviorTreeAI.cs" t="Include" />
+                <e p="Util" t="Include">
+                  <e p="BehaviorTree.cs" t="Include" />
+                </e>
               </e>
               <e p="fsm" t="Include">
                 <e p="Critter.cs" t="Include" />
@@ -213,6 +222,25 @@
               <e p="PlayerRewiredFire.cs" t="Include" />
               <e p="PlayerRewiredLaunch.cs" t="Include" />
               <e p="RewiredBase.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="Entity" t="Include">
+                <e p="GameEntityManager.cs" t="Include" />
+              </e>
+              <e p="Event" t="Include">
+                <e p="EventManager.cs" t="Include" />
+              </e>
+              <e p="GameServiceManager.cs" t="Include" />
+              <e p="Scene" t="Include">
+                <e p="GameSceneManager.cs" t="Include" />
+              </e>
+              <e p="ServiceBase.cs" t="Include" />
+              <e p="ServiceList.cs" t="Include" />
+              <e p="Tasks" t="Include">
+                <e p="Task.cs" t="Include" />
+                <e p="TaskManager.cs" t="Include" />
+                <e p="Tasks.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>

@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 
-public static class Util
+namespace GPP.FSM
 {
-    public static Vector3 RandomPositionInView()
+    public static class Util
     {
-        var x = Random.value;
-        var y = Random.value;
-        return Camera.main.ViewportToWorldPoint(new Vector3(x, y));
+        public static Vector3 RandomPositionInView()
+        {
+            var x = Random.value;
+            var y = Random.value;
+            return Camera.main.ViewportToWorldPoint(new Vector3(x, y));
+        }
     }
 }

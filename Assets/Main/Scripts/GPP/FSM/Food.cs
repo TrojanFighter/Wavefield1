@@ -1,42 +1,43 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Food : MonoBehaviour {
+namespace GPP.FSM
+{
 
-    private void Start()
+    public class Food : MonoBehaviour
     {
-        GetComponent<Renderer>().material.color = Color.red;
 
-        var endScale = transform.localScale;
-        var startScale = new Vector3(0.1f, 0.1f, 0.1f);
-        transform.localScale = startScale;
-        StartCoroutine(Coroutines.DoOverEasedTime(1, Easing.QuadEaseOut, t =>
+        private void Start()
         {
-            transform.localScale = Vector3.Lerp(startScale, endScale, t);
-        }));
-    }
+            GetComponent<Renderer>().material.color = Color.red;
 
-    private void OnDestroy()
-    {
-        Services.Events.Fire(new FoodDestroyedEvent(gameObject));
-    }
+            var endScale = transform.localScale;
+            var startScale = new Vector3(0.1f, 0.1f, 0.1f);
+            transform.localScale = startScale;
+            StartCoroutine(Coroutines.DoOverEasedTime(1, Easing.QuadEaseOut,
+                t => { transform.localScale = Vector3.Lerp(startScale, endScale, t); }));
+        }
 
-    public void Disappear()
-    {
-        Destroy(GetComponent<Collider>());
-        StartCoroutine(DisappearAnimation());
-    }
-
-    public IEnumerator DisappearAnimation()
-    {
-        var startScale = transform.localScale;
-        var endScale = new Vector3(0.1f, 0.1f, 0.1f);
-        yield return StartCoroutine(Coroutines.DoOverEasedTime(1, Easing.QuadEaseIn, t =>
+        private void OnDestroy()
         {
-            transform.localScale = Vector3.Lerp(startScale, endScale, t);
-        }));
+            Services.Events.Fire(new FoodDestroyedEvent(gameObject));
+        }
 
-        Destroy(gameObject);
+        public void Disappear()
+        {
+            Destroy(GetComponent<Collider>());
+            StartCoroutine(DisappearAnimation());
+        }
+
+        public IEnumerator DisappearAnimation()
+        {
+            var startScale = transform.localScale;
+            var endScale = new Vector3(0.1f, 0.1f, 0.1f);
+            yield return StartCoroutine(Coroutines.DoOverEasedTime(1, Easing.QuadEaseIn,
+                t => { transform.localScale = Vector3.Lerp(startScale, endScale, t); }));
+
+            Destroy(gameObject);
+        }
+
     }
-
 }
