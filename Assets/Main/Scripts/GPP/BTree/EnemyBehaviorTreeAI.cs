@@ -76,11 +76,6 @@ namespace WaveField.BehaviorTree
                                     ),
                                     new Sequence<EnemyBehaviorTreeAI>(
                                         new IsPlayerInVisionRange(),
-                                        new Idle(), // Pulse
-                                        new Idle(), // Pulse
-                                        new Idle(), // Pulse
-                                        new Idle(), // Pulse
-                                        new Idle(), // Pulse
                                         new Selector<EnemyBehaviorTreeAI>(
                                             new Sequence<EnemyBehaviorTreeAI>(
                                                 new IsHurt(),

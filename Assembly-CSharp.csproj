@@ -150,12 +150,6 @@
     <None Include="Assets\Imported\Rewired\Documentation\licences.txt" />
     <None Include="Assets\Imported\Rewired\Documentation\ReadMe.txt" />
     <None Include="Assets\Imported\Rewired\Documentation\ReleaseNotes.txt" />
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -213,6 +207,12 @@
     <Reference Include="UnityEditor.VR">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -224,6 +224,9 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Rewired_Editor">
       <HintPath>F:/UnityProjects/Wavefield1/Assets/Imported/Rewired/Internal/Libraries/Editor/Rewired_Editor.dll</HintPath>
