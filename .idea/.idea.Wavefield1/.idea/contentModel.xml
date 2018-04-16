@@ -208,6 +208,24 @@
                   <e p="Util.cs" t="Include" />
                 </e>
               </e>
+              <e p="Scene" t="Include">
+                <e p="Ball.cs" t="Include" />
+                <e p="Main.cs" t="Include" />
+                <e p="Scenes" t="Include">
+                  <e p="DifficultyButton.cs" t="Include" />
+                  <e p="GameOverScene.cs" t="Include" />
+                  <e p="GameScene.cs" t="Include" />
+                  <e p="MainMenuScene.cs" t="Include" />
+                  <e p="SplashScene.cs" t="Include" />
+                </e>
+                <e p="Util" t="Include">
+                  <e p="CameraUtil.cs" t="Include" />
+                  <e p="Config.cs" t="Include" />
+                  <e p="EventManager.cs" t="Include" />
+                  <e p="PrefabDB.cs" t="Include" />
+                  <e p="Services.cs" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="Manager" t="Include">
               <e p="EnemyGenerator.cs" t="Include" />
@@ -239,6 +257,9 @@
               <e p="GameServiceManager.cs" t="Include" />
               <e p="Scene" t="Include">
                 <e p="GameSceneManager.cs" t="Include" />
+                <e p="Scene.cs" t="Include" />
+                <e p="SceneManager.cs" t="Include" />
+                <e p="TransitionData.cs" t="Include" />
               </e>
               <e p="ServiceBase.cs" t="Include" />
               <e p="ServiceList.cs" t="Include" />
