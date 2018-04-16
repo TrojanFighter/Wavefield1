@@ -4,4 +4,14 @@
 	{
 		public delegate void Handler(GameEvent e);
 	}
+	
+	public class MouseDownEvent : GameEvent
+	{
+		public readonly int button;
+
+		public MouseDownEvent(int button)
+		{
+			this.button = button;
+		}
+	}
 }

@@ -128,6 +128,7 @@
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Util\Services.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\FSM\Util\Util.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\Scene\Ball.cs" />
+    <Compile Include="Assets\Main\Scripts\GPP\Scene\GameSceneInit.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\Scene\Main.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\Scene\Scenes\DifficultyButton.cs" />
     <Compile Include="Assets\Main\Scripts\GPP\Scene\Scenes\GameOverScene.cs" />
@@ -155,6 +156,7 @@
     <Compile Include="Assets\Main\Scripts\Services\Scene\GameSceneManager.cs" />
     <Compile Include="Assets\Main\Scripts\Services\Scene\Scene.cs" />
     <Compile Include="Assets\Main\Scripts\Services\Scene\SceneManager.cs" />
+    <Compile Include="Assets\Main\Scripts\Services\Scene\Scenes\StartScene.cs" />
     <Compile Include="Assets\Main\Scripts\Services\Scene\TransitionData.cs" />
     <Compile Include="Assets\Main\Scripts\Services\ServiceBase.cs" />
     <Compile Include="Assets\Main\Scripts\Services\ServiceList.cs" />

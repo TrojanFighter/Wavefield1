@@ -210,6 +210,7 @@
               </e>
               <e p="Scene" t="Include">
                 <e p="Ball.cs" t="Include" />
+                <e p="GameSceneInit.cs" t="Include" />
                 <e p="Main.cs" t="Include" />
                 <e p="Scenes" t="Include">
                   <e p="DifficultyButton.cs" t="Include" />
@@ -259,6 +260,9 @@
                 <e p="GameSceneManager.cs" t="Include" />
                 <e p="Scene.cs" t="Include" />
                 <e p="SceneManager.cs" t="Include" />
+                <e p="Scenes" t="Include">
+                  <e p="StartScene.cs" t="Include" />
+                </e>
                 <e p="TransitionData.cs" t="Include" />
               </e>
               <e p="ServiceBase.cs" t="Include" />
