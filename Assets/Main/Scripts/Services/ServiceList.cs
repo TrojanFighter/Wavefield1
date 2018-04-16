@@ -6,18 +6,7 @@ namespace WaveField.Services
 {
 	public static class ServiceList
 	{
-		// Renderer     
-		private static GameSceneManager _gameSceneManager;
-
-		public static GameSceneManager GameSceneManager
-		{
-			get
-			{
-				Debug.Assert(_gameSceneManager != null);
-				return _gameSceneManager;
-			}
-			set { _gameSceneManager = value; }
-		}
+		public static GameSceneManager<TransitionData> GameSceneManager;
 		
 		private static GameEntityManager _gameEntityManager;
 

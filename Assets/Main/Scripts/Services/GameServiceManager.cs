@@ -19,7 +19,7 @@ namespace WaveField.Services
 			// Initialize your services in the order         
 			// and with the parameters you need
 
-			ServiceList.GameSceneManager = new GameSceneManager();//gameObject.AddComponent<GameSceneManager>();
+			ServiceList.GameSceneManager =new GameSceneManager<TransitionData>();//gameObject.AddComponent<GameSceneManager>();
 			ServiceList.GameEntityManager=new GameEntityManager();
 			ServiceList.TaskManager=new TaskManager();
 			ServiceList.EventManager=new EventManager();
