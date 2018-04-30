@@ -1,6 +1,7 @@
 ﻿using WaveField.Services.Task;
 using WaveField.Services.Event;
 using UnityEngine;
+using WaveField.Services.Achievement;
 
 namespace WaveField.Services
 {
@@ -42,6 +43,18 @@ namespace WaveField.Services
 				return _eventManager;
 			}
 			set { _eventManager = value; }
+		}
+		
+		private static AchievementManager _achievementManager;
+
+		public static AchievementManager AchievementManager
+		{
+			get
+			{
+				Debug.Assert(_achievementManager != null);
+				return _achievementManager;
+			}
+			set { _achievementManager = value; }
 		}
 
 		// etc... 

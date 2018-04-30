@@ -8,19 +8,7 @@ namespace WaveField.Services.Event
 
 	public class EventManager:ServiceBase
 	{
-		/*private static EventManager _instance;
-		public static EventManager Instance
-		{
-			get
-			{
-				if (_instance == null)
-				{
-					_instance=new EventManager();
-				}
 
-				return _instance;
-			}
-		}*/
 		public EventManager()
 		{
 			Init();

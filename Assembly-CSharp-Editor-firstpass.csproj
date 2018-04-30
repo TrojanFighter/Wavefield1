@@ -2,6 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>4</LangVersion>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -78,7 +79,6 @@
     <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupOrganizerInspector.cs" />
     <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupPropertyDrawer.cs" />
     <Compile Include="Assets\Plugins\Editor\DarkTonic\MasterAudio\SoundGroupVariationInspector.cs" />
-    <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
     <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\AutoBackend\ReflectionUtil.cs" />
     <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\AutoBackend\RIAutoBackend.cs" />
     <Compile Include="Assets\Plugins\Editor\RelationsInspector\Backends\HierarchyExample\SceneHierarchyBackend.cs" />
@@ -117,7 +117,7 @@
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>F:\UnityProjects\Wavefield1\Library\resharper-unity-libs\nunit3.5.0\nunit.framework.dll</HintPath>
+      <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Timeline">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
@@ -208,6 +208,9 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/MusketeerOrder/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
+      <HintPath>F:/UnityProjects/Wavefield1/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

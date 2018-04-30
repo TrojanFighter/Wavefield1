@@ -2,6 +2,7 @@
 using WaveField.Services.Event;
 using WaveField.Services.Task;
 using UnityEngine;
+using WaveField.Services.Achievement;
 
 namespace WaveField.Services
 {
@@ -23,6 +24,7 @@ namespace WaveField.Services
 			ServiceList.GameEntityManager=new GameEntityManager();
 			ServiceList.TaskManager=new TaskManager();
 			ServiceList.EventManager=new EventManager();
+			ServiceList.AchievementManager=new AchievementManager();
 
 		}
 
@@ -33,6 +35,7 @@ namespace WaveField.Services
 			ServiceList.GameEntityManager.Update();
 			ServiceList.TaskManager.Update();
 			ServiceList.EventManager.Update();
+			ServiceList.AchievementManager.Update();
 
 		}
 
@@ -53,6 +56,7 @@ namespace WaveField.Services
 			ServiceList.GameEntityManager.Destroy();
 			ServiceList.TaskManager.Destroy();
 			ServiceList.EventManager.Destroy();
+			ServiceList.AchievementManager.Destroy();
 		}
 	}
 }
