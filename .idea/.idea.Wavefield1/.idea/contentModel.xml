@@ -185,6 +185,9 @@
             <e p="PlayerEntity.cs" t="Include" />
           </e>
           <e p="GPP" t="Include">
+            <e p="Achievement" t="Include">
+              <e p="AchievementConfig.cs" t="Include" />
+            </e>
             <e p="BTree" t="Include">
               <e p="EnemyBehaviorTreeAI.cs" t="Include" />
               <e p="Util" t="Include">
