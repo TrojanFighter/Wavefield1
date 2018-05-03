@@ -2,7 +2,7 @@
 {
 	public abstract class GameEvent
 	{
-		public delegate void Handler(GameEvent e);
+		//public delegate void Handler(GameEvent e);
 	}
 	
 	public class MouseDownEvent : GameEvent

@@ -25,18 +25,17 @@ namespace WaveField.Scene
 		protected override void OnEnter(TransitionData data)
 		{
 			_pulse = StartCoroutine(PulseTitle());
-			ServiceList.EventManager.Register<MouseDownEvent>(OnClick);
+			ServiceList.EventManager. AddHandler<MouseDownEvent>(OnClick);
 		}
 
 		protected override void OnExit()
 		{
 			StopCoroutine(_pulse);
-			ServiceList.EventManager.UnRegister<MouseDownEvent>(OnClick);
+			ServiceList.EventManager.RemoveHandler<MouseDownEvent>(OnClick);
 		}
 
-		private void OnClick(GameEvent evt)
+		private void OnClick(MouseDownEvent evt)
 		{
-			var mouseDownEvent = evt as MouseDownEvent;
 			ServiceList.GameSceneManager.Swap<MainMenuScene>();
 		}
 

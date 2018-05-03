@@ -1,78 +1,149 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using WaveField.Event;
 
 namespace WaveField.Services.Achievement
 {
 
-	public class AchievementManager:ServiceBase
-	{
-
-		public AchievementManager()
-		{
-			Init();
-		}
-
-		// Use this for initialization
-		public override void Init() {
-		
-		}
+    public class AchievementManager:ServiceBase
+    {
+        // Use this for initialization
+        public override void Init() {
+            _queueLock = new object();
+            _delegates = new Dictionary<System.Type, EventDelegate>();
+            _delegate_lookup = new Dictionary<System.Delegate, EventDelegate>();
+            _queuedEvents = new List<GameEvent>();
+        }
 	
-		// Update is called once per frame
-		public override void Update() {
+        // Update is called once per frame
+        public override void Update() {
 		
-		}
+        }
 
-		public override void Destroy()
-		{
-		}
-		
-		private readonly Dictionary<System.Type,GameEvent.Handler> _eventTypeToHandlersMap=new Dictionary<Type, GameEvent.Handler>();
+        public override void Destroy()
+        {
+        }
+        
+        private object _queueLock;
 
-		public void Register<EventType>(GameEvent.Handler handler) where EventType : GameEvent
-		{
-			System.Type type = typeof(EventType);
-			GameEvent.Handler handlers;
-			if (_eventTypeToHandlersMap.ContainsKey(type))
-			{
-				_eventTypeToHandlersMap[type] += handler;
-			}
-			else
-			{
-				_eventTypeToHandlersMap.Add(type,handler);
-			}
-		}
+        public delegate void EventDelegate<T>(T e) where T : GameEvent;
 
-		public void UnRegister<EventType>(GameEvent.Handler handler) where EventType : GameEvent
-		{
-			System.Type type = typeof(EventType);
-			GameEvent.Handler handlers;
-			if (_eventTypeToHandlersMap.TryGetValue(type, out handlers))
-			{
-				handlers -= handler;
-				if (handlers == null)
-				{
-					_eventTypeToHandlersMap.Remove(type);
-				}
-				else
-				{
-					_eventTypeToHandlersMap[type] = handlers;
-				}
-			}
-		}
+        private delegate void EventDelegate(GameEvent e);
 
-		public void Fire(GameEvent e)
-		{
-			System.Type type = e.GetType();
-			GameEvent.Handler handlers;
-			if (_eventTypeToHandlersMap.TryGetValue(type, out handlers))
-			{
-				handlers(e);
-			}
-			//GameEvent.Handler handlers;
-			//_eventTypeToHandlersMap[type].
-			
-		}
-	}
+        /*public EventManager()
+        {
+            _queueLock = new object();
+            _delegates = new Dictionary<System.Type, EventDelegate>();
+            _delegate_lookup = new Dictionary<System.Delegate, EventDelegate>();
+            _queuedEvents = new List<GameEvent>();
+        }*/
+
+        private Dictionary<System.Type, EventDelegate> _delegates;
+        private Dictionary<System.Delegate, EventDelegate> _delegate_lookup;
+        private List<GameEvent> _queuedEvents;
+
+        public void AddHandler<T>(EventDelegate<T> del) where T : GameEvent
+        {
+            if (_delegate_lookup.ContainsKey(del))
+            {
+                return;
+            }
+
+            EventDelegate internalDelegate = (e) => del((T) e);
+            _delegate_lookup[del] = internalDelegate;
+
+            EventDelegate tempDel;
+            if (_delegates.TryGetValue(typeof(T), out tempDel))
+            {
+                _delegates[typeof(T)] = tempDel += internalDelegate;
+            }
+            else
+            {
+                _delegates[typeof(T)] = internalDelegate;
+            }
+        }
+
+        public void RemoveHandler<T>(EventDelegate<T> del) where T : GameEvent
+        {
+            EventDelegate internalDelegate;
+            if (_delegate_lookup.TryGetValue(del, out internalDelegate))
+            {
+                EventDelegate tempDel;
+                if (_delegates.TryGetValue(typeof(T), out tempDel))
+                {
+                    tempDel -= internalDelegate;
+                    if (tempDel == null)
+                    {
+                        _delegates.Remove(typeof(T));
+                    }
+                    else
+                    {
+                        _delegates[typeof(T)] = tempDel;
+                    }
+                }
+
+                _delegate_lookup.Remove(del);
+            }
+        }
+
+        public void Clear()
+        {
+            if (_queueLock != null)
+            {
+                lock (_queueLock)
+                {
+                    if (_delegates != null) _delegates.Clear();
+                    if (_delegate_lookup != null) _delegate_lookup.Clear();
+                    if (_queuedEvents != null) _queuedEvents.Clear();
+                }
+
+                _queueLock = null;
+            }
+            else
+            {
+                if (_delegates != null) _delegates.Clear();
+                if (_delegate_lookup != null) _delegate_lookup.Clear();
+                if (_queuedEvents != null) _queuedEvents.Clear();
+            }
+        }
+
+        public void Fire(GameEvent e)
+        {
+            EventDelegate del;
+            if (_delegates.TryGetValue(e.GetType(), out del))
+            {
+                del.Invoke(e);
+            }
+        }
+
+        public void ProcessQueuedEvents()
+        {
+            List<GameEvent> events;
+            lock (_queueLock)
+            {
+                if (_queuedEvents.Count > 0)
+                {
+                    events = new List<GameEvent>(_queuedEvents);
+                    _queuedEvents.Clear();
+                }
+                else
+                {
+                    return;
+                }
+            }
+
+            foreach (var e in events)
+            {
+                Fire(e);
+            }
+        }
+
+        public void Queue(GameEvent e)
+        {
+            lock (_queueLock)
+            {
+                _queuedEvents.Add(e);
+            }
+        }
+
+    }
 }
