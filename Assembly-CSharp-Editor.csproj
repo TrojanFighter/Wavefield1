@@ -65,6 +65,8 @@
     <Compile Include="Assets\Imported\Rewired\Internal\Scripts\Editor\CustomInspectors\InputManagerInspector.cs" />
     <Compile Include="Assets\Imported\Rewired\Internal\Scripts\Editor\CustomInspectors\UserDataStore_PlayerPrefsInspector.cs" />
     <Compile Include="Assets\Imported\Rewired\Internal\Scripts\Editor\UnityEditorBridge.cs" />
+    <Compile Include="Assets\Main\AchievementSystem\MMTools\Achievements\Scripts\Editor\MMAchievementListInspector.cs" />
+    <Compile Include="Assets\Main\AchievementSystem\MMTools\Achievements\Scripts\Editor\MMAchievementMenu.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Program Files/Unity/Unity2017.3.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

@@ -169,6 +169,54 @@
         </e>
       </e>
       <e p="Assets\Main" t="Include">
+        <e p="AchievementSystem" t="Include">
+          <e p="Common" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Achievements" t="Include">
+                <e p="AchievementRules.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="MMTools" t="Include">
+            <e p="Achievements" t="Include">
+              <e p="MMHelpers" t="Include">
+                <e p="MMFade.cs" t="Include" />
+                <e p="MMMaths.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Define" t="Include">
+                  <e p="AchievementDefine.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="MMAchievementListInspector.cs" t="Include" />
+                  <e p="MMAchievementMenu.cs" t="Include" />
+                </e>
+                <e p="MMAchievement.cs" t="Include" />
+                <e p="MMAchievementDisplayer.cs" t="Include" />
+                <e p="MMAchievementDisplayItem.cs" t="Include" />
+                <e p="MMAchievementEvent.cs" t="Include" />
+                <e p="MMAchievementList.cs" t="Include" />
+                <e p="MMAchievementManager.cs" t="Include" />
+                <e p="MMAchievementRules.cs" t="Include" />
+                <e p="SerializedMMAchievementManager.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Events" t="Include">
+              <e p="MMEventManager.cs" t="Include" />
+            </e>
+            <e p="GUI" t="Include">
+              <e p="ProgressBar.cs" t="Include" />
+            </e>
+            <e p="SaveLoad" t="Include">
+              <e p="SaveLoadManager.cs" t="Include" />
+            </e>
+            <e p="Singletons" t="Include">
+              <e p="PersistentHumbleSingleton.cs" t="Include" />
+              <e p="PersistentSingleton.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Base" t="Include">
             <e p="MonoBehaviourEX.cs" t="Include" />
@@ -186,7 +234,7 @@
           </e>
           <e p="GPP" t="Include">
             <e p="Achievement" t="Include">
-              <e p="AchievementConfig.cs" t="Include" />
+              <e p="AchievementRecord.cs" t="Include" />
             </e>
             <e p="BTree" t="Include">
               <e p="EnemyBehaviorTreeAI.cs" t="Include" />
