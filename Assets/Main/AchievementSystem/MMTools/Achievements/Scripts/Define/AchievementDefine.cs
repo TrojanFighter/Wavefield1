@@ -12,7 +12,6 @@
 		UnPause,
 		PlayerDeath,
 		Respawn,
-		StarPicked,
 		KillAnyEnemy,
 		Kill3Enemy,
 		ShootBullet

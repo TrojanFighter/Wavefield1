@@ -18,8 +18,8 @@ namespace Wavefield.Tools
 		private static List<MMAchievement> _achievements;
 		private static MMAchievement _achievement = null;
 
-		private const string _defaultFileName = "Achievements";
-		private const string _saveFolderName = "MMAchievements/";
+		private const string _defaultFileName = "AchievementData";
+		private const string _saveFolderName = "SavedAchievement/";
 		private const string _saveFileExtension = ".achievements";
 
 		private static string _saveFileName;

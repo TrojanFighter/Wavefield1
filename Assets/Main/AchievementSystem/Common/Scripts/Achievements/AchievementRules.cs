@@ -54,10 +54,10 @@ namespace WaveField.Achievement
 					MMAchievementManager.UnlockAchievement ("Kill Anyone");
 					break;
 				case AchievementEventTypes.Kill3Enemy:
-					MMAchievementManager.UnlockAchievement ("Kill 3 Enemies");
+					MMAchievementManager.AddProgress("Kill 3 Enemies",1);
 					break;
 				case AchievementEventTypes.ShootBullet:
-					MMAchievementManager.UnlockAchievement ("ShootBullet");
+					MMAchievementManager.UnlockAchievement ("Shoot a bullet");
 					break;
 			}
 		}
@@ -101,7 +101,7 @@ namespace WaveField.Achievement
 		{
 			base.OnEnable ();
 			//this.MMEventStartListening<MMCharacterEvent>();
-			this.MMEventStopListening<MMGameEvent> ();
+			this.MMEventStartListening<MMGameEvent> ();
 			this.MMEventStartListening<AchievementEvent>();
 			//this.MMEventStartListening<MMStateChangeEvent<CharacterStates.MovementStates>>();
 			//this.MMEventStartListening<MMStateChangeEvent<CharacterStates.CharacterConditions>>();

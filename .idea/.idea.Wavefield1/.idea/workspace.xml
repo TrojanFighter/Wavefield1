@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e774f579-3878-4c9d-b4c5-3f18721644d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wavefield1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main/Scene/a1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scene/a1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/GPP/Achievement/AchievementConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/GPP/Achievement/AchievementConfig.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/Services/GameServiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/Services/GameServiceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Config.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Easy.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Easy.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab DB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab DB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ea/ea1f9d9404738c449bbf64405daec5ce" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ea/ea1f9d9404738c449bbf64405daec5ce" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,29 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AchievementRules.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs">
+      <file leaf-file-name="EnemyEntity.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="44" column="71" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="71" />
+            <state relative-caret-position="180">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="97" />
               <folding>
-                <marker date="1525462516023" expanded="false" signature="6:67" ph="..." />
-                <marker date="1525462516023" expanded="true" signature="100:3849" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="104:305" ph="/// This class describes how the Corgi Engine demo achievements are triggered. ... " />
-                <marker date="1525462516023" expanded="true" signature="489:703" ph="/* , ... */" />
-                <marker date="1525462516023" expanded="true" signature="703:3847" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="709:855" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
-                <marker date="1525462516023" expanded="true" signature="911:952" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="956:1291" ph="/* public virtual void OnMMEvent(MMCharacterEvent characterEvent) ... */" />
-                <marker date="1525462516023" expanded="true" signature="1359:1900" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="1402:1896" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="1904:2636" ph="/* public virtual void OnMMEvent(PickableItemEvent pickableItemEvent) ... */" />
-                <marker date="1525462516023" expanded="true" signature="2640:2788" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
-                <marker date="1525462516023" expanded="true" signature="2825:3237" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="3004:3233" ph="/* this.MMEventStartListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
-                <marker date="1525462516023" expanded="true" signature="3241:3397" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
-                <marker date="1525462516023" expanded="true" signature="3435:3843" ph="{...}" />
-                <marker date="1525462516023" expanded="true" signature="3613:3839" ph="/* this.MMEventStopListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
+                <marker date="1525467706746" expanded="true" signature="7:75" ph="..." />
+                <marker date="1525467706746" expanded="true" signature="103:437" ph="{...}" />
+                <marker date="1525467706746" expanded="true" signature="143:435" ph="{...}" />
+                <marker date="1525467706746" expanded="true" signature="183:432" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,45 +43,334 @@
       <file leaf-file-name="AchievementDefine.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="67">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
-                <marker date="1525462516233" expanded="true" signature="31:1638" ph="{...}" />
-                <marker date="1525462516233" expanded="true" signature="35:117" ph="/// A list of the possible Corgi Engine base events ... " />
-                <marker date="1525462516233" expanded="true" signature="152:305" ph="{...}" />
-                <marker date="1525462516233" expanded="true" signature="308:404" ph="/// A type of events used to signal level start and end (for now) ... " />
-                <marker date="1525462516233" expanded="true" signature="436:762" ph="{...}" />
-                <marker date="1525462516233" expanded="true" signature="485:666" ph="/// Initializes a new instance of the &lt;see cref=&quot;MoreMountains.CorgiEngine.CorgiEngineEvent&quot;/&gt; struct. ... " />
-                <marker date="1525462516233" expanded="true" signature="725:759" ph="{...}" />
-                <marker date="1525462516233" expanded="true" signature="766:1634" ph="/* A list of possible events used by the character ... */" />
+                <marker date="1525468450991" expanded="true" signature="31:700" ph="{...}" />
+                <marker date="1525468450991" expanded="true" signature="35:104" ph="/// A list of the possible base events ... " />
+                <marker date="1525468450991" expanded="true" signature="139:278" ph="{...}" />
+                <marker date="1525468450991" expanded="true" signature="281:377" ph="/// A type of events used to signal level start and end (for now) ... " />
+                <marker date="1525468450991" expanded="true" signature="409:694" ph="{...}" />
+                <marker date="1525468450991" expanded="true" signature="458:598" ph="/// Initializes a new instance of the Achievement struct. ... " />
+                <marker date="1525468450991" expanded="true" signature="657:691" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMFade.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/MMHelpers/MMFade.cs">
+      <file leaf-file-name="MMAchievementManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="85">
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
-                <marker date="1525462516152" expanded="false" signature="6:80" ph="..." />
-                <marker date="1525462516152" expanded="true" signature="107:2946" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="138:2944" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="145:378" ph="/// Fades the specified image to the target opacity and duration. ... " />
-                <marker date="1525462516152" expanded="true" signature="459:824" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="602:796" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="827:1060" ph="/// Fades the specified image to the target opacity and duration. ... " />
-                <marker date="1525462516152" expanded="true" signature="1139:1506" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="1282:1476" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="1509:1742" ph="/// Fades the specified image to the target opacity and duration. ... " />
-                <marker date="1525462516152" expanded="true" signature="1833:2366" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="1952:2195" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="2313:2362" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="2488:2940" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="2603:2906" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="2761:2819" ph="{...}" />
-                <marker date="1525462516152" expanded="true" signature="2828:2877" ph="{...}" />
+                <marker date="1525469461964" expanded="false" signature="6:168" ph="..." />
+                <marker date="1525469461964" expanded="true" signature="195:7477" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="220:389" ph="/* This static class is in charge of storing the current state of the achievements, unlocking/locking them, and  ... */" />
+                <marker date="1525469461964" expanded="true" signature="431:7475" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="887:981" ph="/// You'll need to call this method to initialize the manager ... " />
+                <marker date="1525469461964" expanded="true" signature="1024:1614" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="1372:1394" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="1556:1610" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="1618:1757" ph="/// Unlocks the specified achievement (if found). ... " />
+                <marker date="1525469461964" expanded="true" signature="1818:1964" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="1912:1960" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="1968:2106" ph="/// Locks the specified achievement (if found). ... " />
+                <marker date="1525469461964" expanded="true" signature="2165:2309" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="2259:2305" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="2313:2516" ph="/// Adds progress to the specified achievement (if found). ... " />
+                <marker date="1525469461964" expanded="true" signature="2588:2739" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="2682:2735" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="2743:2976" ph="/// Sets the progress of the specified achievement (if found) to the specified progress. ... " />
+                <marker date="1525469461964" expanded="true" signature="3048:3199" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3142:3195" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3205:3519" ph="/// Determines if the achievement manager contains an achievement of the specified ID. Returns it if found, other ... " />
+                <marker date="1525469461964" expanded="true" signature="3596:3836" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3633:3660" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3715:3816" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3769:3811" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="3984:4155" ph="/// Removes saved data and resets all achievements from a list ... " />
+                <marker date="1525469461964" expanded="true" signature="4209:4560" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="4243:4401" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="4304:4395" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="4605:4672" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="4676:4786" ph="/// Loads the saved achievements file and updates the array with its content. ... " />
+                <marker date="1525469461964" expanded="true" signature="4831:5106" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="5110:5202" ph="/// Saves the achievements current status to a file on disk ... " />
+                <marker date="1525469461964" expanded="true" signature="5242:5555" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="5559:5662" ph="/// Determines the path the achievements save file should be saved to. ... " />
+                <marker date="1525469461964" expanded="true" signature="5729:5922" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="5836:5884" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="5926:6120" ph="/// Serializes the contents of the achievements array to a serialized, ready to save object ... " />
+                <marker date="1525469461964" expanded="true" signature="6231:6628" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="6378:6624" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="6632:6839" ph="/// Extracts the serialized achievements into our achievements array if the achievements ID match. ... " />
+                <marker date="1525469461964" expanded="true" signature="6953:7472" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="6996:7018" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="7070:7468" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="7144:7463" ph="{...}" />
+                <marker date="1525469461964" expanded="true" signature="7247:7457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveLoadManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/SaveLoad/SaveLoadManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+              <folding>
+                <marker date="1525462513317" expanded="false" signature="6:152" ph="..." />
+                <marker date="1525462513317" expanded="true" signature="186:3889" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="191:292" ph="/// Allows the save and load of objects in a specific folder and file. ... " />
+                <marker date="1525462513317" expanded="true" signature="330:3887" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="449:664" ph="/// Determines the save path to use when loading and saving a file based on a folder name. ... " />
+                <marker date="1525462513317" expanded="true" signature="738:1197" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="885:960" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="970:1045" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="1201:1370" ph="/// Determines the name of the file to save ... " />
+                <marker date="1525462513317" expanded="true" signature="1425:1463" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="1467:1730" ph="/// Save the specified saveObject, fileName and foldername into a file on disk. ... " />
+                <marker date="1525462513317" expanded="true" signature="1832:2350" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="2041:2092" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="2354:2558" ph="/// Load the specified file based on a file name into a specified folder ... " />
+                <marker date="1525462513317" expanded="true" signature="2643:3257" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="2971:2998" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="3261:3422" ph="/// Removes a save from disk ... " />
+                <marker date="1525462513317" expanded="true" signature="3511:3668" ph="{...}" />
+                <marker date="1525462513317" expanded="true" signature="3747:3884" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMAchievementRules.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <marker date="1525462513293" expanded="false" signature="6:78" ph="..." />
+                <marker date="1525462513293" expanded="true" signature="105:1548" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="109:236" ph="/// That class is meant to be extended to implement the achievement rules specific to your game. ... " />
+                <marker date="1525462513293" expanded="true" signature="315:1546" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="321:413" ph="/// On Awake, loads the achievement list and the saved file ... " />
+                <marker date="1525462513293" expanded="true" signature="446:719" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="723:871" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
+                <marker date="1525462513293" expanded="true" signature="907:961" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="965:1121" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
+                <marker date="1525462513293" expanded="true" signature="1158:1211" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="1215:1361" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
+                <marker date="1525462513293" expanded="true" signature="1416:1542" ph="{...}" />
+                <marker date="1525462513293" expanded="true" signature="1452:1538" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMAchievement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <marker date="1525462513287" expanded="false" signature="6:58" ph="..." />
+                <marker date="1525462513287" expanded="true" signature="85:3511" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="90:280" ph="/// This achievement system supports 2 types of achievements : simple (do something &gt; get achievement), and progr ... " />
+                <marker date="1525462513287" expanded="true" signature="378:3509" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="1613:1858" ph="/// Unlocks the achievement, asks for a save of the current achievements, and triggers an MMAchievementUnlockedEv ... " />
+                <marker date="1525462513287" expanded="true" signature="1900:2183" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="2002:2024" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="2187:2246" ph="/// Locks the achievement. ... " />
+                <marker date="1525462513287" expanded="true" signature="2286:2321" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="2325:2465" ph="/// Adds the specified value to the current progress. ... " />
+                <marker date="1525462513287" expanded="true" signature="2516:2582" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="2586:2728" ph="/// Sets the progress to the value passed in parameter. ... " />
+                <marker date="1525462513287" expanded="true" signature="2779:2844" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="2848:2961" ph="/// Evaluates the current progress of the achievement, and unlocks it if needed. ... " />
+                <marker date="1525462513287" expanded="true" signature="3005:3128" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="3051:3124" ph="{...}" />
+                <marker date="1525462513287" expanded="true" signature="3132:3244" ph="/// Copies this achievement (useful when loading from a scriptable object list) ... " />
+                <marker date="1525462513287" expanded="true" signature="3282:3506" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyBehaviorTreeAI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="355" selection-start-line="355" selection-end-line="355" />
+              <folding>
+                <marker date="1523285496793" expanded="false" signature="6:42" ph="..." />
+                <marker date="1523285496793" expanded="true" signature="77:17772" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="133:17770" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="611:657" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="687:5870" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="1223:1475" ph="/* We use a sequence here since this is effectively a checklist... ... */" />
+                <marker date="1523285496793" expanded="true" signature="5627:5796" ph="/* (lowest priority) ... */" />
+                <marker date="1523285496793" expanded="true" signature="5901:6193" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="6235:6588" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="6444:6578" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+                <marker date="1523285496793" expanded="true" signature="6589:6970" ph="/* private void RamTowardsPlayer() ... */" />
+                <marker date="1523285496793" expanded="true" signature="7013:7360" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="7218:7350" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+                <marker date="1523285496793" expanded="true" signature="7407:7750" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="7593:7727" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+                <marker date="1523285496793" expanded="true" signature="7804:8135" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="7991:8124" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+                <marker date="1523285496793" expanded="true" signature="8175:8263" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="8318:8697" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="8341:8687" ph="/* if (coll.gameObject.GetComponent&lt;BPlayer&gt;() == null) return; ... */" />
+                <marker date="1523285496793" expanded="true" signature="8776:9472" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="8834:9462" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="9158:9337" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="9482:9821" ph="/* NODES ... */" />
+                <marker date="1523285496793" expanded="true" signature="9882:10078" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="9973:10068" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10136:10347" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10227:10337" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10416:10715" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10507:10705" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10788:11306" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="10879:11296" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="11378:11739" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="11469:11729" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="11817:12199" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="11908:12189" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="12268:12457" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="12360:12447" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="12495:12534" ph="/// Actions ... " />
+                <marker date="1523285496793" expanded="true" signature="12616:13511" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="12707:13501" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="12888:13363" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="13204:13345" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="13582:13975" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="13673:13965" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14058:14332" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14149:14322" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14414:14693" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14505:14683" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14754:15032" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="14845:15022" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="15093:15569" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="15184:15559" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="15215:15379" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
+                <marker date="1523285496793" expanded="true" signature="15632:16092" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="15723:16082" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="15754:15903" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
+                <marker date="1523285496793" expanded="true" signature="16176:16561" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="16267:16551" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="16298:16402" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
+                <marker date="1523285496793" expanded="true" signature="16624:16959" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="16715:16949" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="16746:16833" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
+                <marker date="1523285496793" expanded="true" signature="17031:17441" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="17122:17431" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="17497:17764" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="17588:17754" ph="{...}" />
+                <marker date="1523285496793" expanded="true" signature="17619:17711" ph="/* enemyBehaviorTreeAi.SetColor(Color.blue); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyGenerator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <marker date="1522673066953" expanded="false" signature="6:165" ph="..." />
+                <marker date="1522673066953" expanded="true" signature="192:3305" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="260:3303" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="572:738" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="769:875" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="907:1102" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1133:1201" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1241:1463" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1276:1453" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1503:2039" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1553:1617" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1662:1728" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1773:1837" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1882:1948" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="1965:2029" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="2078:3297" ph="{...}" />
+                <marker date="1522673066953" expanded="true" signature="2311:3093" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMEventManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Events/MMEventManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="160" column="56" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+              <folding>
+                <marker date="1525462513319" expanded="false" signature="198:310" ph="..." />
+                <marker date="1525462513319" expanded="true" signature="337:7291" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="342:486" ph="/// MMGameEvents are used throughout the game for general game events (game started, game ended, life lost, etc.) ... " />
+                <marker date="1525462513319" expanded="true" signature="513:615" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="580:612" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="642:757" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="718:754" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="760:2359" ph="/// This class handles event management, and can be used to broadcast events throughout the game, to tell one cla ... " />
+                <marker date="1525462513319" expanded="true" signature="2417:6365" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="2529:2622" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="2629:2823" ph="/// Adds a new subscriber to a certain event. ... " />
+                <marker date="1525462513319" expanded="true" signature="2928:3239" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="3246:3441" ph="/// Removes a subscriber from a certain event. ... " />
+                <marker date="1525462513319" expanded="true" signature="3549:4635" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="3660:3912" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="4066:4081" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="4130:4364" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="4175:4359" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="4642:4923" ph="/// Triggers an event. All instances that are subscribed to it will receive it (and will potentially act on it). ... " />
+                <marker date="1525462513319" expanded="true" signature="5012:5648" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="5564:5641" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="5655:5945" ph="/// Checks if there are subscribers for a certain type of events ... " />
+                <marker date="1525462513319" expanded="true" signature="6032:6362" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6241:6330" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6281:6325" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6368:6474" ph="/// Static class that allows any class to start or stop listening to events ... " />
+                <marker date="1525462513319" expanded="true" signature="6509:6950" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6691:6757" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6878:6947" ph="{...}" />
+                <marker date="1525462513319" expanded="true" signature="6953:7018" ph="/// Event listener basic interface ... " />
+                <marker date="1525462513319" expanded="true" signature="7064:7188" ph="/// A public interface you'll need to implement for each type of event you want to listen to. ... " />
+                <marker date="1525462513319" expanded="true" signature="7247:7289" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AchievementRules.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
+              <folding>
+                <marker date="1525469118821" expanded="false" signature="6:67" ph="..." />
+                <marker date="1525469118821" expanded="true" signature="100:3830" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="104:287" ph="/// This class describes how the achievements are triggered. ... " />
+                <marker date="1525469118821" expanded="true" signature="471:685" ph="/* , ... */" />
+                <marker date="1525469118821" expanded="true" signature="685:3828" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="691:837" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
+                <marker date="1525469118821" expanded="true" signature="893:934" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="938:1273" ph="/* public virtual void OnMMEvent(MMCharacterEvent characterEvent) ... */" />
+                <marker date="1525469118821" expanded="true" signature="1341:1880" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="1384:1876" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="1884:2616" ph="/* public virtual void OnMMEvent(PickableItemEvent pickableItemEvent) ... */" />
+                <marker date="1525469118821" expanded="true" signature="2620:2768" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
+                <marker date="1525469118821" expanded="true" signature="2805:3218" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="2985:3214" ph="/* this.MMEventStartListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
+                <marker date="1525469118821" expanded="true" signature="3222:3378" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
+                <marker date="1525469118821" expanded="true" signature="3416:3824" ph="{...}" />
+                <marker date="1525469118821" expanded="true" signature="3594:3820" ph="/* this.MMEventStopListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
               </folding>
             </state>
           </provider>
@@ -114,6 +382,9 @@
     <findStrings>
       <find>BPla</find>
       <find>TTransitionData</find>
+      <find>corgi</find>
+      <find>loadach</find>
+      <find>&quot;save&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,6 +406,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/ServiceList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/MMHelpers/MMFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/MMHelpers/MMMaths.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Scene/GameSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/Util.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Util/PrefabDB.cs" root0="FORCE_HIGHLIGHTING" />
@@ -149,20 +421,28 @@
     <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/FSM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01398C8D-9FA9-4950-8140-D131D43532F7/9d/41efa360/Enemy.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported/Rewired/Extras/ControlMapper/Examples/ControlMapperDemo/Scripts/ControlMapperDemoMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioClipManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/TaskManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/Events.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/Tasks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Projectile/PlayerBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/PoolMember.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Pool/Pool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Util/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Event/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/Scene/Scenes/StartScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/DarkTonic/MasterAudio/MasterAudioInspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/GameSceneInit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Scenes/SplashScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Services/GameServiceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/SaveLoad/SaveLoadManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Events/MMEventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/HPEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EntityBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs" root0="FORCE_HIGHLIGHTING" />
@@ -183,9 +463,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/Task.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Services/Entity/GameEntityManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/Tasks.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Services/Tasks/TaskManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Main.cs" />
@@ -203,8 +480,6 @@
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Entity/HPEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Resonance/ResonanceField.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Projectile/PlayerBullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Util/EventManager.cs" />
@@ -231,9 +506,14 @@
         <option value="$PROJECT_DIR$/Assets/CorgiEngine/MMTools/Achievements/Scripts/Editor/MMAchievementMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/CorgiEngine/MMTools/Achievements/Scripts/MMAchievementList.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Scripts/Services/GameServiceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/MMHelpers/MMFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/MMHelpers/MMFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs" />
       </list>
     </option>
   </component>
@@ -243,11 +523,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="188" />
-    <option name="width" value="1447" />
-    <option name="height" value="988" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="322" />
+    <option name="y" value="214" />
+    <option name="width" value="1177" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -292,9 +572,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15824">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15824" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -330,12 +610,12 @@
       <workItem from="1525320770765" duration="4286000" />
       <workItem from="1525453913472" duration="1208000" />
       <workItem from="1525456099847" duration="1106000" />
-      <workItem from="1525460834620" duration="1663000" />
+      <workItem from="1525460834620" duration="7074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58252000" />
+    <option name="totallyTimeSpent" value="63663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +627,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="152" width="1167" height="797" extended-state="1" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -358,12 +638,12 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18039896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13428017" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.1824611" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48656294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47488585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41018388" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,121 +678,66 @@
           </properties>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs</url>
-          <line>355</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/Enemy.cs" initialLine="357" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs</url>
-          <line>369</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/Enemy.cs" initialLine="369" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs" initialLine="27">
+          <url>file://$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs" initialLine="50">
             <startOffsets>
-              <startOffset value="792" />
+              <startOffset value="1440" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="804" />
+              <endOffset value="1507" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs" initialLine="28">
+          <url>file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs" initialLine="47">
             <startOffsets>
-              <startOffset value="817" />
+              <startOffset value="1480" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="865" />
+              <endOffset value="1521" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievement.cs</url>
+          <line>62</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievement.cs" initialLine="62">
+            <startOffsets>
+              <startOffset value="2056" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2109" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs</url>
+          <line>172</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs" initialLine="172">
+            <startOffsets>
+              <startOffset value="5447" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="5551" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/FSM.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2679">
-          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/FSM/Util/Events.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Player/ResonanceField.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Projectile/PlayerBullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EntityBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/HPEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredControl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2356">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <marker date="1522673066953" expanded="true" signature="6:165" ph="..." />
-            <marker date="1522673066953" expanded="true" signature="192:3305" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="260:3303" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="572:738" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="769:875" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="907:1102" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1133:1201" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1241:1463" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1276:1453" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1503:2039" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1553:1617" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1662:1728" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1773:1837" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1882:1948" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="1965:2029" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="2078:3297" ph="{...}" />
-            <marker date="1522673066953" expanded="true" signature="2311:3093" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,94 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/DarkTonic/MasterAudio/Scripts/ResultObjects/PlaySoundResult.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
-          <folding>
-            <marker date="1523285496793" expanded="false" signature="6:42" ph="..." />
-            <marker date="1523285496793" expanded="true" signature="77:17772" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="133:17770" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="611:657" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="687:5870" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="1223:1475" ph="/* We use a sequence here since this is effectively a checklist... ... */" />
-            <marker date="1523285496793" expanded="true" signature="5627:5796" ph="/* (lowest priority) ... */" />
-            <marker date="1523285496793" expanded="true" signature="5901:6193" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="6235:6588" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="6444:6578" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
-            <marker date="1523285496793" expanded="true" signature="6589:6970" ph="/* private void RamTowardsPlayer() ... */" />
-            <marker date="1523285496793" expanded="true" signature="7013:7360" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="7218:7350" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
-            <marker date="1523285496793" expanded="true" signature="7407:7750" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="7593:7727" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
-            <marker date="1523285496793" expanded="true" signature="7804:8135" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="7991:8124" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
-            <marker date="1523285496793" expanded="true" signature="8175:8263" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="8318:8697" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="8341:8687" ph="/* if (coll.gameObject.GetComponent&lt;BPlayer&gt;() == null) return; ... */" />
-            <marker date="1523285496793" expanded="true" signature="8776:9472" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="8834:9462" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="9158:9337" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="9482:9821" ph="/* NODES ... */" />
-            <marker date="1523285496793" expanded="true" signature="9882:10078" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="9973:10068" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10136:10347" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10227:10337" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10416:10715" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10507:10705" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10788:11306" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="10879:11296" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="11378:11739" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="11469:11729" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="11817:12199" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="11908:12189" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="12268:12457" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="12360:12447" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="12495:12534" ph="/// Actions ... " />
-            <marker date="1523285496793" expanded="true" signature="12616:13511" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="12707:13501" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="12888:13363" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="13204:13345" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="13582:13975" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="13673:13965" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14058:14332" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14149:14322" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14414:14693" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14505:14683" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14754:15032" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="14845:15022" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="15093:15569" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="15184:15559" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="15215:15379" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
-            <marker date="1523285496793" expanded="true" signature="15632:16092" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="15723:16082" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="15754:15903" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
-            <marker date="1523285496793" expanded="true" signature="16176:16561" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="16267:16551" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="16298:16402" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
-            <marker date="1523285496793" expanded="true" signature="16624:16959" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="16715:16949" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="16746:16833" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
-            <marker date="1523285496793" expanded="true" signature="17031:17441" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="17122:17431" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="17497:17764" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="17588:17754" ph="{...}" />
-            <marker date="1523285496793" expanded="true" signature="17619:17711" ph="/* enemyBehaviorTreeAi.SetColor(Color.blue); ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,32 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="44" column="71" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="71" />
-          <folding>
-            <marker date="1525462516023" expanded="false" signature="6:67" ph="..." />
-            <marker date="1525462516023" expanded="true" signature="100:3849" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="104:305" ph="/// This class describes how the Corgi Engine demo achievements are triggered. ... " />
-            <marker date="1525462516023" expanded="true" signature="489:703" ph="/* , ... */" />
-            <marker date="1525462516023" expanded="true" signature="703:3847" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="709:855" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
-            <marker date="1525462516023" expanded="true" signature="911:952" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="956:1291" ph="/* public virtual void OnMMEvent(MMCharacterEvent characterEvent) ... */" />
-            <marker date="1525462516023" expanded="true" signature="1359:1900" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="1402:1896" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="1904:2636" ph="/* public virtual void OnMMEvent(PickableItemEvent pickableItemEvent) ... */" />
-            <marker date="1525462516023" expanded="true" signature="2640:2788" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
-            <marker date="1525462516023" expanded="true" signature="2825:3237" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="3004:3233" ph="/* this.MMEventStartListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
-            <marker date="1525462516023" expanded="true" signature="3241:3397" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
-            <marker date="1525462516023" expanded="true" signature="3435:3843" ph="{...}" />
-            <marker date="1525462516023" expanded="true" signature="3613:3839" ph="/* this.MMEventStopListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/Scene/Scenes/SplashScene.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -958,23 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <marker date="1525462516233" expanded="true" signature="31:1638" ph="{...}" />
-            <marker date="1525462516233" expanded="true" signature="35:117" ph="/// A list of the possible Corgi Engine base events ... " />
-            <marker date="1525462516233" expanded="true" signature="152:305" ph="{...}" />
-            <marker date="1525462516233" expanded="true" signature="308:404" ph="/// A type of events used to signal level start and end (for now) ... " />
-            <marker date="1525462516233" expanded="true" signature="436:762" ph="{...}" />
-            <marker date="1525462516233" expanded="true" signature="485:666" ph="/// Initializes a new instance of the &lt;see cref=&quot;MoreMountains.CorgiEngine.CorgiEngineEvent&quot;/&gt; struct. ... " />
-            <marker date="1525462516233" expanded="true" signature="725:759" ph="{...}" />
-            <marker date="1525462516233" expanded="true" signature="766:1634" ph="/* A list of possible events used by the character ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,6 +1098,369 @@
             <marker date="1525462516152" expanded="true" signature="2603:2906" ph="{...}" />
             <marker date="1525462516152" expanded="true" signature="2761:2819" ph="{...}" />
             <marker date="1525462516152" expanded="true" signature="2828:2877" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/RewiredControlled/PlayerRewiredFire.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="106" />
+          <folding>
+            <marker date="1525465297030" expanded="false" signature="6:178" ph="..." />
+            <marker date="1525465297030" expanded="true" signature="211:1742" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="260:1740" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="567:938" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="597:619" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="696:934" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="741:929" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="962:1737" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="1082:1733" ph="{...}" />
+            <marker date="1525465297030" expanded="true" signature="1320:1658" ph="/* var angle = _transform.rotation.eulerAngles.y;//- 90; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Manager/EnemyGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1522673066953" expanded="false" signature="6:165" ph="..." />
+            <marker date="1522673066953" expanded="true" signature="192:3305" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="260:3303" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="572:738" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="769:875" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="907:1102" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1133:1201" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1241:1463" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1276:1453" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1503:2039" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1553:1617" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1662:1728" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1773:1837" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1882:1948" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="1965:2029" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="2078:3297" ph="{...}" />
+            <marker date="1522673066953" expanded="true" signature="2311:3093" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/PlayerEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1525468363364" expanded="true" signature="7:75" ph="..." />
+            <marker date="1525468363364" expanded="true" signature="103:348" ph="{...}" />
+            <marker date="1525468363364" expanded="true" signature="144:346" ph="{...}" />
+            <marker date="1525468363364" expanded="true" signature="184:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/Entity/EnemyEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="97" />
+          <folding>
+            <marker date="1525467706746" expanded="true" signature="7:75" ph="..." />
+            <marker date="1525467706746" expanded="true" signature="103:437" ph="{...}" />
+            <marker date="1525467706746" expanded="true" signature="143:435" ph="{...}" />
+            <marker date="1525467706746" expanded="true" signature="183:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Events/MMEventManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="160" column="56" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+          <folding>
+            <marker date="1525462513319" expanded="false" signature="198:310" ph="..." />
+            <marker date="1525462513319" expanded="true" signature="337:7291" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="342:486" ph="/// MMGameEvents are used throughout the game for general game events (game started, game ended, life lost, etc.) ... " />
+            <marker date="1525462513319" expanded="true" signature="513:615" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="580:612" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="642:757" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="718:754" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="760:2359" ph="/// This class handles event management, and can be used to broadcast events throughout the game, to tell one cla ... " />
+            <marker date="1525462513319" expanded="true" signature="2417:6365" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="2529:2622" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="2629:2823" ph="/// Adds a new subscriber to a certain event. ... " />
+            <marker date="1525462513319" expanded="true" signature="2928:3239" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="3246:3441" ph="/// Removes a subscriber from a certain event. ... " />
+            <marker date="1525462513319" expanded="true" signature="3549:4635" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="3660:3912" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="4066:4081" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="4130:4364" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="4175:4359" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="4642:4923" ph="/// Triggers an event. All instances that are subscribed to it will receive it (and will potentially act on it). ... " />
+            <marker date="1525462513319" expanded="true" signature="5012:5648" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="5564:5641" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="5655:5945" ph="/// Checks if there are subscribers for a certain type of events ... " />
+            <marker date="1525462513319" expanded="true" signature="6032:6362" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6241:6330" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6281:6325" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6368:6474" ph="/// Static class that allows any class to start or stop listening to events ... " />
+            <marker date="1525462513319" expanded="true" signature="6509:6950" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6691:6757" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6878:6947" ph="{...}" />
+            <marker date="1525462513319" expanded="true" signature="6953:7018" ph="/// Event listener basic interface ... " />
+            <marker date="1525462513319" expanded="true" signature="7064:7188" ph="/// A public interface you'll need to implement for each type of event you want to listen to. ... " />
+            <marker date="1525462513319" expanded="true" signature="7247:7289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/Define/AchievementDefine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1525468450991" expanded="true" signature="31:700" ph="{...}" />
+            <marker date="1525468450991" expanded="true" signature="35:104" ph="/// A list of the possible base events ... " />
+            <marker date="1525468450991" expanded="true" signature="139:278" ph="{...}" />
+            <marker date="1525468450991" expanded="true" signature="281:377" ph="/// A type of events used to signal level start and end (for now) ... " />
+            <marker date="1525468450991" expanded="true" signature="409:694" ph="{...}" />
+            <marker date="1525468450991" expanded="true" signature="458:598" ph="/// Initializes a new instance of the Achievement struct. ... " />
+            <marker date="1525468450991" expanded="true" signature="657:691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/Common/Scripts/Achievements/AchievementRules.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
+          <folding>
+            <marker date="1525469118821" expanded="false" signature="6:67" ph="..." />
+            <marker date="1525469118821" expanded="true" signature="100:3830" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="104:287" ph="/// This class describes how the achievements are triggered. ... " />
+            <marker date="1525469118821" expanded="true" signature="471:685" ph="/* , ... */" />
+            <marker date="1525469118821" expanded="true" signature="685:3828" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="691:837" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
+            <marker date="1525469118821" expanded="true" signature="893:934" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="938:1273" ph="/* public virtual void OnMMEvent(MMCharacterEvent characterEvent) ... */" />
+            <marker date="1525469118821" expanded="true" signature="1341:1880" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="1384:1876" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="1884:2616" ph="/* public virtual void OnMMEvent(PickableItemEvent pickableItemEvent) ... */" />
+            <marker date="1525469118821" expanded="true" signature="2620:2768" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
+            <marker date="1525469118821" expanded="true" signature="2805:3218" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="2985:3214" ph="/* this.MMEventStartListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
+            <marker date="1525469118821" expanded="true" signature="3222:3378" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
+            <marker date="1525469118821" expanded="true" signature="3416:3824" ph="{...}" />
+            <marker date="1525469118821" expanded="true" signature="3594:3820" ph="/* this.MMEventStopListening&lt;MMStateChangeEvent&lt;CharacterStates.MovementStates&gt;&gt;(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/Scripts/GPP/BTree/EnemyBehaviorTreeAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+          <folding>
+            <marker date="1523285496793" expanded="false" signature="6:42" ph="..." />
+            <marker date="1523285496793" expanded="true" signature="77:17772" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="133:17770" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="611:657" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="687:5870" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="1223:1475" ph="/* We use a sequence here since this is effectively a checklist... ... */" />
+            <marker date="1523285496793" expanded="true" signature="5627:5796" ph="/* (lowest priority) ... */" />
+            <marker date="1523285496793" expanded="true" signature="5901:6193" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="6235:6588" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="6444:6578" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+            <marker date="1523285496793" expanded="true" signature="6589:6970" ph="/* private void RamTowardsPlayer() ... */" />
+            <marker date="1523285496793" expanded="true" signature="7013:7360" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="7218:7350" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+            <marker date="1523285496793" expanded="true" signature="7407:7750" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="7593:7727" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+            <marker date="1523285496793" expanded="true" signature="7804:8135" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="7991:8124" ph="/* var body = GetComponent&lt;Rigidbody2D&gt;(); ... */" />
+            <marker date="1523285496793" expanded="true" signature="8175:8263" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="8318:8697" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="8341:8687" ph="/* if (coll.gameObject.GetComponent&lt;BPlayer&gt;() == null) return; ... */" />
+            <marker date="1523285496793" expanded="true" signature="8776:9472" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="8834:9462" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="9158:9337" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="9482:9821" ph="/* NODES ... */" />
+            <marker date="1523285496793" expanded="true" signature="9882:10078" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="9973:10068" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10136:10347" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10227:10337" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10416:10715" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10507:10705" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10788:11306" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="10879:11296" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="11378:11739" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="11469:11729" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="11817:12199" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="11908:12189" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="12268:12457" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="12360:12447" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="12495:12534" ph="/// Actions ... " />
+            <marker date="1523285496793" expanded="true" signature="12616:13511" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="12707:13501" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="12888:13363" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="13204:13345" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="13582:13975" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="13673:13965" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14058:14332" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14149:14322" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14414:14693" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14505:14683" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14754:15032" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="14845:15022" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="15093:15569" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="15184:15559" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="15215:15379" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
+            <marker date="1523285496793" expanded="true" signature="15632:16092" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="15723:16082" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="15754:15903" ph="/* enemyBehaviorTreeAi.SetColor(Color.yellow); ... */" />
+            <marker date="1523285496793" expanded="true" signature="16176:16561" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="16267:16551" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="16298:16402" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
+            <marker date="1523285496793" expanded="true" signature="16624:16959" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="16715:16949" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="16746:16833" ph="/* enemyBehaviorTreeAi.SetColor(Color.red); ... */" />
+            <marker date="1523285496793" expanded="true" signature="17031:17441" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="17122:17431" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="17497:17764" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="17588:17754" ph="{...}" />
+            <marker date="1523285496793" expanded="true" signature="17619:17711" ph="/* enemyBehaviorTreeAi.SetColor(Color.blue); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <marker date="1525462513287" expanded="false" signature="6:58" ph="..." />
+            <marker date="1525462513287" expanded="true" signature="85:3511" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="90:280" ph="/// This achievement system supports 2 types of achievements : simple (do something &gt; get achievement), and progr ... " />
+            <marker date="1525462513287" expanded="true" signature="378:3509" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="1613:1858" ph="/// Unlocks the achievement, asks for a save of the current achievements, and triggers an MMAchievementUnlockedEv ... " />
+            <marker date="1525462513287" expanded="true" signature="1900:2183" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="2002:2024" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="2187:2246" ph="/// Locks the achievement. ... " />
+            <marker date="1525462513287" expanded="true" signature="2286:2321" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="2325:2465" ph="/// Adds the specified value to the current progress. ... " />
+            <marker date="1525462513287" expanded="true" signature="2516:2582" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="2586:2728" ph="/// Sets the progress to the value passed in parameter. ... " />
+            <marker date="1525462513287" expanded="true" signature="2779:2844" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="2848:2961" ph="/// Evaluates the current progress of the achievement, and unlocks it if needed. ... " />
+            <marker date="1525462513287" expanded="true" signature="3005:3128" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="3051:3124" ph="{...}" />
+            <marker date="1525462513287" expanded="true" signature="3132:3244" ph="/// Copies this achievement (useful when loading from a scriptable object list) ... " />
+            <marker date="1525462513287" expanded="true" signature="3282:3506" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/SaveLoad/SaveLoadManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <marker date="1525462513317" expanded="false" signature="6:152" ph="..." />
+            <marker date="1525462513317" expanded="true" signature="186:3889" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="191:292" ph="/// Allows the save and load of objects in a specific folder and file. ... " />
+            <marker date="1525462513317" expanded="true" signature="330:3887" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="449:664" ph="/// Determines the save path to use when loading and saving a file based on a folder name. ... " />
+            <marker date="1525462513317" expanded="true" signature="738:1197" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="885:960" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="970:1045" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="1201:1370" ph="/// Determines the name of the file to save ... " />
+            <marker date="1525462513317" expanded="true" signature="1425:1463" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="1467:1730" ph="/// Save the specified saveObject, fileName and foldername into a file on disk. ... " />
+            <marker date="1525462513317" expanded="true" signature="1832:2350" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="2041:2092" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="2354:2558" ph="/// Load the specified file based on a file name into a specified folder ... " />
+            <marker date="1525462513317" expanded="true" signature="2643:3257" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="2971:2998" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="3261:3422" ph="/// Removes a save from disk ... " />
+            <marker date="1525462513317" expanded="true" signature="3511:3668" ph="{...}" />
+            <marker date="1525462513317" expanded="true" signature="3747:3884" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementRules.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <marker date="1525462513293" expanded="false" signature="6:78" ph="..." />
+            <marker date="1525462513293" expanded="true" signature="105:1548" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="109:236" ph="/// That class is meant to be extended to implement the achievement rules specific to your game. ... " />
+            <marker date="1525462513293" expanded="true" signature="315:1546" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="321:413" ph="/// On Awake, loads the achievement list and the saved file ... " />
+            <marker date="1525462513293" expanded="true" signature="446:719" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="723:871" ph="/// On enable, we start listening for MMGameEvents. You may want to extend that to listen to other types of event ... " />
+            <marker date="1525462513293" expanded="true" signature="907:961" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="965:1121" ph="/// On disable, we stop listening for MMGameEvents. You may want to extend that to stop listening to other types  ... " />
+            <marker date="1525462513293" expanded="true" signature="1158:1211" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="1215:1361" ph="/// When we catch an MMGameEvent, we do stuff based on its name ... " />
+            <marker date="1525462513293" expanded="true" signature="1416:1542" ph="{...}" />
+            <marker date="1525462513293" expanded="true" signature="1452:1538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Main/AchievementSystem/MMTools/Achievements/Scripts/MMAchievementManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <marker date="1525469461964" expanded="false" signature="6:168" ph="..." />
+            <marker date="1525469461964" expanded="true" signature="195:7477" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="220:389" ph="/* This static class is in charge of storing the current state of the achievements, unlocking/locking them, and  ... */" />
+            <marker date="1525469461964" expanded="true" signature="431:7475" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="887:981" ph="/// You'll need to call this method to initialize the manager ... " />
+            <marker date="1525469461964" expanded="true" signature="1024:1614" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="1372:1394" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="1556:1610" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="1618:1757" ph="/// Unlocks the specified achievement (if found). ... " />
+            <marker date="1525469461964" expanded="true" signature="1818:1964" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="1912:1960" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="1968:2106" ph="/// Locks the specified achievement (if found). ... " />
+            <marker date="1525469461964" expanded="true" signature="2165:2309" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="2259:2305" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="2313:2516" ph="/// Adds progress to the specified achievement (if found). ... " />
+            <marker date="1525469461964" expanded="true" signature="2588:2739" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="2682:2735" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="2743:2976" ph="/// Sets the progress of the specified achievement (if found) to the specified progress. ... " />
+            <marker date="1525469461964" expanded="true" signature="3048:3199" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3142:3195" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3205:3519" ph="/// Determines if the achievement manager contains an achievement of the specified ID. Returns it if found, other ... " />
+            <marker date="1525469461964" expanded="true" signature="3596:3836" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3633:3660" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3715:3816" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3769:3811" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="3984:4155" ph="/// Removes saved data and resets all achievements from a list ... " />
+            <marker date="1525469461964" expanded="true" signature="4209:4560" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="4243:4401" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="4304:4395" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="4605:4672" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="4676:4786" ph="/// Loads the saved achievements file and updates the array with its content. ... " />
+            <marker date="1525469461964" expanded="true" signature="4831:5106" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="5110:5202" ph="/// Saves the achievements current status to a file on disk ... " />
+            <marker date="1525469461964" expanded="true" signature="5242:5555" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="5559:5662" ph="/// Determines the path the achievements save file should be saved to. ... " />
+            <marker date="1525469461964" expanded="true" signature="5729:5922" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="5836:5884" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="5926:6120" ph="/// Serializes the contents of the achievements array to a serialized, ready to save object ... " />
+            <marker date="1525469461964" expanded="true" signature="6231:6628" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="6378:6624" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="6632:6839" ph="/// Extracts the serialized achievements into our achievements array if the achievements ID match. ... " />
+            <marker date="1525469461964" expanded="true" signature="6953:7472" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="6996:7018" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="7070:7468" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="7144:7463" ph="{...}" />
+            <marker date="1525469461964" expanded="true" signature="7247:7457" ph="{...}" />
           </folding>
         </state>
       </provider>

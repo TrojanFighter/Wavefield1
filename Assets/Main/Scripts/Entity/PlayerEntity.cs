@@ -1,4 +1,6 @@
 ﻿
+using Wavefield.Tools;
+using WaveField.Achievement;
 using WaveField.Enemy;
 
 namespace WaveField.Entity
@@ -8,6 +10,7 @@ namespace WaveField.Entity
 	{
 		public override void SelfDestroy()
 		{
+			MMEventManager.TriggerEvent(new AchievementEvent(AchievementEventTypes.PlayerDeath));
 			EnemyGenerator.Instance.StopGame();
 			base.SelfDestroy();
 		}

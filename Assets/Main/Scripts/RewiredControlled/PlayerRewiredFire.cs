@@ -2,6 +2,8 @@
 using System.Linq.Expressions;
 using Rewired;
 using UnityEngine;
+using Wavefield.Tools;
+using WaveField.Achievement;
 using WaveField.ResourceManagement;
 
 namespace WaveField.RewiredBase
@@ -33,6 +35,7 @@ namespace WaveField.RewiredBase
 				if (player.GetButtonDown("Launch"))
 				{
 					StartCoroutine(Fire());
+					MMEventManager.TriggerEvent (new AchievementEvent(AchievementEventTypes.ShootBullet));
 					lastLongBurstStartTime = Time.timeSinceLevelLoad;
 				}
 			}
