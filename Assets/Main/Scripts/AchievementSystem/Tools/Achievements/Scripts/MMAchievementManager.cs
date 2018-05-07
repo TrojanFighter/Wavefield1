@@ -190,7 +190,6 @@ namespace Wavefield.Tools
 		/// <summary>
 		/// Serializes the contents of the achievements array to a serialized, ready to save object
 		/// </summary>
-		/// <param name="serializedInventory">Serialized inventory.</param>
 		public static void FillSerializedMMAchievementManager(SerializedMMAchievementManager serializedAchievements)
 		{
 			serializedAchievements.Achievements = new SerializedMMAchievement[_achievements.Count];
@@ -205,7 +204,6 @@ namespace Wavefield.Tools
 		/// <summary>
 		/// Extracts the serialized achievements into our achievements array if the achievements ID match.
 		/// </summary>
-		/// <param name="serializedAchievements">Serialized achievements.</param>
 		public static void ExtractSerializedMMAchievementManager(SerializedMMAchievementManager serializedAchievements)
 		{
 			if (serializedAchievements == null)
